@@ -1,7 +1,6 @@
 from jinja2 import Template, Environment, FileSystemLoader
 
 templates_dir = 'templates'
-www_root_dir = 'docs'
 
 templates = [
     {
@@ -57,5 +56,5 @@ for template in templates:
 
     jinja_template = env.from_string(template_text)
 
-    with open(f'{www_root_dir}/{output_path}', 'w', encoding='utf-8') as f:
+    with open(f'./{output_path}', 'w', encoding='utf-8') as f:
         f.write(jinja_template.render(template['data']))

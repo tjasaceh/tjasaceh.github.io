@@ -1,5 +1,5 @@
 .DS_Store
 quiz-app/node_modules
 
-docs/static/js/quiz-app/*
-!docs/static/js/quiz-app/QuizApp.umd.min.js
+static/js/quiz-app/*
+!static/js/quiz-app/QuizApp.umd.min.js
