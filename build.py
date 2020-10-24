@@ -1,7 +1,7 @@
 from jinja2 import Template, Environment, FileSystemLoader
 
 templates_dir = 'templates'
-www_root_dir = 'www-root'
+www_root_dir = 'docs'
 
 templates = [
     {

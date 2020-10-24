@@ -1,3 +1,3 @@
 module.exports = {
-    outputDir: '../www-root/static/js/quiz-app',
+    outputDir: '../docs/static/js/quiz-app',
 }
