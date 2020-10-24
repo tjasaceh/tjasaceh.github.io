@@ -12,13 +12,16 @@ templates = [
                     'location': '/sesalci-kviz.html',
                     'image': '/static/img/cat.jpg',
                     'title': 'Sesalci',
-                    'description': 'Kaj veš o sesalcih?'
                 },
                 {
                     'location': '/clovesko-telo-kviz.html',
                     'image': '/static/img/body.jpg',
                     'title': 'Človeško telo',
-                    'description': 'Preizkusite svoje znanje o človeškem telesu!'
+                },
+                {
+                    'location': '/fotosinteza-rastline-kviz.html',
+                    'image': '/static/img/flower.jpg',
+                    'title': 'Fotosinteza in rastline',
                 }
             ]
         }
@@ -42,6 +45,14 @@ templates = [
         'data': {
             'title': 'Človeško telo',
             'questionsPath': '/static/js/questions-clovesko-telo.js',
+        }
+    },
+    {
+        'path': 'quiz.html',
+        'outputPath': 'fotosinteza-rastline-kviz.html',
+        'data': {
+            'title': 'Fotosinteza in rastline',
+            'questionsPath': '/static/js/questions-fotosinteza.js',
         }
     }
 ]
