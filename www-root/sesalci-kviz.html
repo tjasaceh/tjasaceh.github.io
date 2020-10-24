@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesalci - Kvizi.net</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/common.css">
+    
+    <link rel="stylesheet" href="/static/css/quiz.css">
+
+</head>
+<body>
+    <div class="content-wrapper">
+        <div class="content-wrapper__content">
+            <header>
+                <div class="header__name">
+                    <a href="/">Kvizi!</a>
+                </div>
+                <div class="header__navigation">
+                    <div class="header__navigation__link">
+                        <a href="/o-strani.html">O strani</a>
+                    </div>
+                </div>
+            </header>
+            
+    <h2>Sesalci</h2>
+    <div id="app"></div>
+    <script src="https://unpkg.com/vue@2.6.11/dist/vue.min.js"></script>
+    <script src="/static/js/quiz-app/QuizApp.umd.min.js"></script>
+    <script src="/static/js/common.js"></script>
+    <script src="/static/js/questions-sesalci.js"></script>
+    <script>
+        shuffle(quizQuestions)
+        const selectedQuestions = quizQuestions.slice(0, 10)
+        new Vue({
+            render: h => h(QuizApp, {
+                props: {
+                    questions: selectedQuestions,
+                },
+            }),
+        }).$mount('#app')
+    </script>
+
+        </div>
+    </div>
+</body>
+</html>

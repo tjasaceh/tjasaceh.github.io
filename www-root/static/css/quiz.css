@@ -1,0 +1,9 @@
+#app {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.quiz {
+    width: 100%;
+}

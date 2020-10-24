@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}Domača stran{% endblock %}
+
+{% block extracss %}
+    <link rel="stylesheet" href="/static/css/index.css">
+{% endblock %}
+
+{% block content %}
+    <div class="quiz-cards-title">
+        Splošni kvizi
+    </div>
+    <div class="quiz-cards">
+        {% for quizCard in quizCards %}
+            <div class="quiz-card" onclick="window.location.href = '{{ quizCard["location"] }}'">
+                <div class="quiz-card__image">
+                    <img src="{{  quizCard["image"] }}" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        {{ quizCard["title"] }}
+                    </div>
+                    <div class="quiz-card__metadata__description">
+                        {{ quizCard["description"] }}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
