@@ -1,6 +1,6 @@
 <template>
-  <div class="quiz" :class="{ 'quiz--center': isShowingSummary }">
-		<div class="quiz__summary" v-if="isShowingSummary">
+  <div class="quiz" :class="{ 'quiz--center': isCentered }">
+		<div class="quiz__summary" v-if="step === 'summary'">
 			<div class="quiz__summary__correct">
 				Pravilno odgovorjeni: {{ correctAnswers.length }} / {{ questions.length }}
 			</div>
@@ -8,7 +8,7 @@
 				<div class="quiz__summary__retry__button button" @click="reset">Poskusi znova?</div>
 			</div>
 		</div>
-		<template v-else>
+		<template v-else-if="step === 'quiz'">
 			<div class="quiz__progress">
 				{{ progress }}
 			</div>
@@ -25,6 +25,24 @@
 				<div class="button" @click="showSummary" v-show="showSummaryButton">Povzetek</div>
 			</div>
 		</template>
+		<div class="quiz__welcome" v-else-if="step === 'welcome'">
+			<div class="quiz__welcome__title">Dobrodošli v kvizu: {{ title }}!</div>
+			<div class="quiz__welcome__num-questions">
+				<div class="quiz__welcome__num-questions__text">Preden začnemo, izberite število vprašanj:</div>
+				<div class="quiz__welcome__num-questions__wrapper">
+					<div
+						v-for="num in numQuestions"
+						:key="`num_questions_${num}`"
+						@click="setNumQuestions(num)"
+						class="quiz__welcome__num-questions__wrapper__num button"
+						:class="{ 'quiz__welcome__num-questions__wrapper__num--active': selectedNumQuestions === num }"
+					>
+						{{ num }}
+					</div>
+				</div>
+			</div>
+			<div class="button" @click="startQuiz">Začnimo!</div>
+		</div>
   </div>
 </template>
 
@@ -37,13 +55,17 @@ export default {
     QuizQuestion,
   },
   props: {
-    questions: { type: Array, required: true },
+	questionsPool: { type: Array, required: true },
+	title: { type: String, required: true },
   },
   data () {
 		return {
+			step: 'welcome',
 			isShowingSummary: false,
 			selectedAnswers: [],
 			questionIdx: 0,
+			numQuestions: [5, 10, 20],
+			selectedNumQuestions: 10,
 		}
 	},
 	computed: {
@@ -59,6 +81,12 @@ export default {
 		correctAnswers () {
 			return this.selectedAnswers.filter(a => a.isCorrect)
 		},
+		isCentered () {
+			return this.step === 'summary' || this.step === 'welcome'
+		},
+		questions () {
+			return this.questionsPool.slice(0, this.selectedNumQuestions)
+		},
 	},
 	methods: {
 		nextQuestion () {
@@ -71,10 +99,16 @@ export default {
 			this.selectedAnswers.push(answer)
 		},
 		showSummary () {
-			this.isShowingSummary = true
+			this.step = 'summary'
+		},
+		startQuiz () {
+			this.step = 'quiz'
+		},
+		setNumQuestions (numQuestions) {
+			this.selectedNumQuestions = numQuestions
 		},
 		reset () {
-			this.isShowingSummary = false
+			this.step = 'welcome'
 			this.selectedAnswers = []
 			this.questionIdx = 0
 		},
@@ -126,6 +160,48 @@ export default {
 			text-align: center;
 			color: white;
 			margin-bottom: 16px;
+		}
+	}
+
+	&__welcome {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		&__title {
+			font-weight: bold;
+			text-shadow: black 1px 1px;
+			font-size: 32px;
+			text-align: center;
+			color: white;
+			margin-bottom: 16px;
+		}
+
+		&__num-questions {
+			display: flex;
+			align-items: center;
+			margin-bottom: 16px;
+
+			&__text {
+				font-size: 20px;
+				color: white;
+				font-weight: bold;
+				text-shadow: black 1px 1px;
+			}
+
+			&__wrapper {
+				display: flex;
+
+				&__num {
+					margin: 8px;
+				}
+
+				&__num--active {
+					background-color: #00d473;
+					color: white;
+					font-weight: bold;
+				}
+			}
 		}
 	}
 

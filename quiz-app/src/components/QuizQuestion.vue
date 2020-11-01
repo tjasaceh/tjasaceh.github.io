@@ -17,6 +17,9 @@
         }"
         @click="selectAnswer(answer)"
       >
+        <div v-show="isAnswerSelected(answer)" class="quiz-question__answers__answer__selected-answer-flash">
+          {{ selectedAnswerEmoji }}
+        </div>
         {{ answer.answer }}
       </div>
     </div>
@@ -24,6 +27,9 @@
 </template>
 
 <script>
+
+const randomElement = arr => arr[Math.floor(Math.random() * arr.length)]
+
 export default {
   name: 'QuizQuestion',
   components: {
@@ -36,6 +42,18 @@ export default {
 		return {
       selectedAnswer: null,
 		}
+  },
+  computed: {
+    selectedAnswerEmoji () {
+      if (!this.selectedAnswer) {
+        return ''
+      }
+      if (this.selectedAnswer.isCorrect) {
+        return randomElement(['😍', '🤩', '🥳', '🤓'])
+      } else {
+        return randomElement(['🤔', '😖', '😥', '☠️'])
+      }
+    },
   },
   methods: {
     selectAnswer (answer) {
@@ -89,6 +107,7 @@ export default {
 
   &__answers {
     &__answer {
+      position: relative;
       cursor: pointer;
       background-color: white;
       margin-bottom: 16px;
@@ -96,6 +115,14 @@ export default {
       padding: 8px 16px;
       border-radius: 8px;
       box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+
+      &__selected-answer-flash {
+        position: absolute;
+        left: -10px;
+        top: -10px;
+        font-size: 32px;
+        z-index: 3;
+      }
 
       &--answered {
         cursor: not-allowed;

@@ -2,13 +2,17 @@
 
 {% block title %}Domača stran{% endblock %}
 
+{% block extrameta %}
+    <meta name="description" content="kvizi.net - stran za zabavno učenje preko kvizov in drugih zanimivih nalog.">
+{% endblock %}
+
 {% block extracss %}
     <link rel="stylesheet" href="/static/css/index.css">
 {% endblock %}
 
 {% block content %}
-    <div class="quiz-cards-title">
-        Splošni kvizi
+    <div class="title">
+        Biološki kvizi
     </div>
     <div class="quiz-cards">
         {% for quizCard in quizCards %}

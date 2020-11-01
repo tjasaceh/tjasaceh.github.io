@@ -2,8 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fotosinteza in rastline - Kvizi.net</title>
+    
+    <meta name="description" content="Rastline (kraljestvo Plantae) so eno izmed kraljestev živih bitij, v katerega spadajo najrazličnejše oblike rastlin. Za njih je značilno, da energijo za rast pridobivajo s pomočjo fotosinteze in da so celične stene zgrajene iz celuloze. Preveri svoje znanje o življenju rastlin!">
+
+    <title>Fotosinteza in rastline - kvizi.net</title>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/css/common.css">
     
@@ -15,7 +19,7 @@
         <div class="content-wrapper__content">
             <header>
                 <div class="header__name">
-                    <a href="/">Kvizi!</a>
+                    <a href="/">kvizi.net!</a>
                 </div>
                 <div class="header__navigation">
                     <div class="header__navigation__link">
@@ -24,19 +28,26 @@
                 </div>
             </header>
             
-    <h2>Fotosinteza in rastline</h2>
+    <div class="title">Fotosinteza in rastline</div>
     <div id="app"></div>
+    <div class="small-title">
+        Opis
+    </div>
+    <div class="description justify">
+        Rastline (kraljestvo Plantae) so eno izmed kraljestev živih bitij, v katerega spadajo najrazličnejše oblike rastlin. Za njih je značilno, da energijo za rast pridobivajo s pomočjo fotosinteze in da so celične stene zgrajene iz celuloze. Preveri svoje znanje o življenju rastlin!
+    </div>
     <script src="https://unpkg.com/vue@2.6.11/dist/vue.min.js"></script>
     <script src="/static/js/quiz-app/QuizApp.umd.min.js"></script>
     <script src="/static/js/common.js"></script>
     <script src="/static/js/questions-fotosinteza.js"></script>
     <script>
+        const title = 'Fotosinteza in rastline'
         shuffle(quizQuestions)
-        const selectedQuestions = quizQuestions.slice(0, 10)
         new Vue({
             render: h => h(QuizApp, {
                 props: {
-                    questions: selectedQuestions,
+                    title: title,
+                    questionsPool: quizQuestions,
                 },
             }),
         }).$mount('#app')

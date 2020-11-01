@@ -22,7 +22,17 @@ templates = [
                     'location': '/fotosinteza-rastline-kviz.html',
                     'image': '/static/img/flower.jpg',
                     'title': 'Fotosinteza in rastline',
-                }
+                },
+                {
+                    'location': '/genetika-kviz.html',
+                    'image': '/static/img/genetics.jpg',
+                    'title': 'Genetika',
+                },
+                {
+                    'location': '/celica-kviz.html',
+                    'image': '/static/img/cell.jpg',
+                    'title': 'Celica',
+                },
             ]
         }
     },
@@ -37,6 +47,7 @@ templates = [
         'data': {
             'title': 'Sesalci',
             'questionsPath': '/static/js/questions-sesalci.js',
+            'description': 'Sesalci (razred Mammalia) so najvišje razviti razred vretenčarjev in s tem najbolj razvite živali. Od ostalih se ločijo predvsem po tem, da samice svoje mladiče hranijo z mlekom iz svojih mlečnih žlez. Preveri svoje znanje o sesalcih!',
         }
     },
     {
@@ -45,6 +56,7 @@ templates = [
         'data': {
             'title': 'Človeško telo',
             'questionsPath': '/static/js/questions-clovesko-telo.js',
+            'description': 'Kako dobro poznaš svoje telo? Človeško telo je zelo zapleten sistem med sabo povezanih delov in procesov, ki sestavljajo popolno celoto. Preveri svoje znanje s področja človeške biologije!',
         }
     },
     {
@@ -53,6 +65,25 @@ templates = [
         'data': {
             'title': 'Fotosinteza in rastline',
             'questionsPath': '/static/js/questions-fotosinteza.js',
+            'description': 'Rastline (kraljestvo Plantae) so eno izmed kraljestev živih bitij, v katerega spadajo najrazličnejše oblike rastlin. Za njih je značilno, da energijo za rast pridobivajo s pomočjo fotosinteze in da so celične stene zgrajene iz celuloze. Preveri svoje znanje o življenju rastlin!',
+        }
+    },
+    {
+        'path': 'quiz.html',
+        'outputPath': 'genetika-kviz.html',
+        'data': {
+            'title': 'Genetika',
+            'questionsPath': '/static/js/questions-genetika.js',
+            'description': 'Genetika je panoga biologije, ki proučuje dedovanje, lastnosti genov in DNA. Geni so pomembni za zgradbo in delovanje vseh živih bitij in jih najdemo skoraj v vseh celicah, ki gradijo živa bitja. Preveri svoje znanje o genih, ki te definirajo!',
+        }
+    },
+    {
+        'path': 'quiz.html',
+        'outputPath': 'celica-kviz.html',
+        'data': {
+            'title': 'Genetika',
+            'questionsPath': '/static/js/questions-celica.js',
+            'description': 'Celica je osnovna gradbena in funkcionalna enota vseh živih organizmov. Lahko jo imenujemo kar "gradbeni element življenja". Preveri kako je zgrajena celica in kako to vpliva na življenje živih bitij!',
         }
     }
 ]

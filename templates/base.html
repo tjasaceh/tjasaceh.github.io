@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}{% endblock %} - Kvizi.net</title>
+    {% block extrameta %}{% endblock %}
+    <title>{% block title %}{% endblock %} - kvizi.net</title>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/css/common.css">
     {% block extracss %}{% endblock %}
@@ -13,7 +15,7 @@
         <div class="content-wrapper__content">
             <header>
                 <div class="header__name">
-                    <a href="/">Kvizi!</a>
+                    <a href="/">kvizi.net!</a>
                 </div>
                 <div class="header__navigation">
                     <div class="header__navigation__link">

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <quiz :questions="questions"></quiz>
+    <quiz :questions-pool="questionsPool" :title="title"></quiz>
   </div>
 </template>
 
@@ -10,7 +10,8 @@ import Quiz from './components/Quiz.vue'
 export default {
   name: 'App',
   props: {
-    questions: { type: Array, required: true },
+	  title: { type: String, required: true },
+    questionsPool: { type: Array, required: true },
   },
   components: {
     Quiz,

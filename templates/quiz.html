@@ -2,24 +2,35 @@
 
 {% block title %}{{ title }}{% endblock %}
 
+{% block extrameta %}
+    <meta name="description" content="{{ description }}">
+{% endblock %}
+
 {% block extracss %}
     <link rel="stylesheet" href="/static/css/quiz.css">
 {% endblock %}
 
 {% block content %}
-    <h2>{{ title }}</h2>
+    <div class="title">{{ title }}</div>
     <div id="app"></div>
+    <div class="small-title">
+        Opis
+    </div>
+    <div class="description justify">
+        {{ description }}
+    </div>
     <script src="https://unpkg.com/vue@2.6.11/dist/vue.min.js"></script>
     <script src="/static/js/quiz-app/QuizApp.umd.min.js"></script>
     <script src="/static/js/common.js"></script>
     <script src="{{ questionsPath }}"></script>
     <script>
+        const title = '{{ title }}'
         shuffle(quizQuestions)
-        const selectedQuestions = quizQuestions.slice(0, 10)
         new Vue({
             render: h => h(QuizApp, {
                 props: {
-                    questions: selectedQuestions,
+                    title: title,
+                    questionsPool: quizQuestions,
                 },
             }),
         }).$mount('#app')
