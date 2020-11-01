@@ -17,6 +17,7 @@
 				v-show="questionIdx === idx"
 				:key="`question_${question.question}`"
 				:question="question.question"
+				:image="question.image"
 				:answers="question.answers"
 				@answer-selected="onAnswerSelected"
 			></quiz-question>

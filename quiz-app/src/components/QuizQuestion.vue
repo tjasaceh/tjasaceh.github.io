@@ -2,7 +2,12 @@
   <div class="quiz-question">
     <div class="quiz-question__question">
       <div class="quiz-question__question__shape"></div>
-      <div class="quiz-question__question__text">{{ question }}</div>
+      <div class="quiz-question__question__wrapper">
+        <img  v-if="image" :src="`/static/img/${image}`" alt="Brez namigov ;)" width="200px" />
+        <div class="quiz-question__question__wrapper__text">
+          {{ question }}
+        </div>
+      </div>
     </div>
     <div class="quiz-question__answers">
       <div
@@ -36,6 +41,7 @@ export default {
   },
   props: {
     question: { type: String, required: true },
+    image: { type: String, default: null },
     answers: { type: Array, required: true },
   },
   data () {
@@ -87,10 +93,10 @@ export default {
       transform: skew(-3deg);
       background-color: #06bde6;
       border-radius: 8px;
-      z-index: 0; 
+      z-index: 0;
     }
 
-    &__text {
+    &__wrapper {
       position: relative;
       background-color: white;
       text-align: center;
@@ -101,7 +107,7 @@ export default {
       z-index: 1;
       background-image: url(/static/img/questionmark.png);
       background-repeat: no-repeat;
-      background-position: 100% 110%;
+      background-position: 100% 100%;
     }
   }
 

@@ -7,7 +7,7 @@ templates = [
         'path': 'index.html',
         'outputPath': 'index.html',
         'data': {
-            'quizCards': [
+            'biologyQuizCards': [
                 {
                     'location': '/sesalci-kviz.html',
                     'image': '/static/img/cat.jpg',
@@ -33,7 +33,14 @@ templates = [
                     'image': '/static/img/cell.jpg',
                     'title': 'Celica',
                 },
-            ]
+            ],
+            'geographyQuizCards': [
+                {
+                    'location': '/zastave-kviz.html',
+                    'image': '/static/img/flags.jpg',
+                    'title': 'Zastave',
+                },
+            ],
         }
     },
     {
@@ -85,7 +92,16 @@ templates = [
             'questionsPath': '/static/js/questions-celica.js',
             'description': 'Celica je osnovna gradbena in funkcionalna enota vseh živih organizmov. Lahko jo imenujemo kar "gradbeni element življenja". Preveri kako je zgrajena celica in kako to vpliva na življenje živih bitij!',
         }
-    }
+    },
+    {
+        'path': 'quiz.html',
+        'outputPath': 'zastave-kviz.html',
+        'data': {
+            'title': 'Zastave',
+            'questionsPath': '/static/js/questions-zastave.js',
+            'description': 'Zastava je simbol države, ki v prebivalcih vzbuja pripadnost državi ob najrazličnejših dogodkih tako ob proslavah v domovini kot v tujini. Vsaka zastava nam pripoveduje svojo zgodbo in predstavlja barve države. Odkrij katera zastava pripada kateri državi!',
+        }
+    },
 ]
 
 env = Environment(loader=FileSystemLoader(f'{templates_dir}/'))

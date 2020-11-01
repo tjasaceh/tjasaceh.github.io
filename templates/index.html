@@ -15,7 +15,7 @@
         Biološki kvizi
     </div>
     <div class="quiz-cards">
-        {% for quizCard in quizCards %}
+        {% for quizCard in biologyQuizCards %}
             <div class="quiz-card" onclick="window.location.href = '{{ quizCard["location"] }}'">
                 <div class="quiz-card__image">
                     <img src="{{  quizCard["image"] }}" />
@@ -28,4 +28,19 @@
             </div>
         {% endfor %}
     </div>
+    <div class="title">
+        Geografski kvizi
+    </div>
+    {% for quizCard in geographyQuizCards %}
+        <div class="quiz-card" onclick="window.location.href = '{{ quizCard["location"] }}'">
+            <div class="quiz-card__image">
+                <img src="{{  quizCard["image"] }}" />
+            </div>
+            <div class="quiz-card__metadata">
+                <div class="quiz-card__metadata__title">
+                    {{ quizCard["title"] }}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
 {% endblock %}
