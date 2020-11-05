@@ -85,12 +85,12 @@ const quizQuestions = [
             {
                 'answer': 'po celem svetu',
                 'isBacteriaName': false,
-                'isCorrect': false,
+                'isCorrect': true,
             },
             {
                 'answer': 'v Aziji',
                 'isBacteriaName': false,
-                'isCorrect': true,
+                'isCorrect': false,
             },
             {
                 'answer': 'v Afriki',
