@@ -31,16 +31,18 @@
     <div class="title">
         Geografski kvizi
     </div>
-    {% for quizCard in geographyQuizCards %}
-        <div class="quiz-card" onclick="window.location.href = '{{ quizCard["location"] }}'">
-            <div class="quiz-card__image">
-                <img src="{{  quizCard["image"] }}" />
-            </div>
-            <div class="quiz-card__metadata">
-                <div class="quiz-card__metadata__title">
-                    {{ quizCard["title"] }}
+    <div class="quiz-cards">
+        {% for quizCard in geographyQuizCards %}
+            <div class="quiz-card" onclick="window.location.href = '{{ quizCard["location"] }}'">
+                <div class="quiz-card__image">
+                    <img src="{{  quizCard["image"] }}" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        {{ quizCard["title"] }}
+                    </div>
                 </div>
             </div>
-        </div>
-    {% endfor %}
+        {% endfor %}
+    </div>
 {% endblock %}

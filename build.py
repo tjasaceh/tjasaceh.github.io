@@ -1,3 +1,5 @@
+import sys
+
 from jinja2 import Template, Environment, FileSystemLoader
 
 templates_dir = 'templates'
@@ -39,6 +41,16 @@ templates = [
                     'location': '/zastave-kviz.html',
                     'image': '/static/img/flags.jpg',
                     'title': 'Zastave',
+                },
+                {
+                    'location': '/prestolnice-kviz.html',
+                    'image': '/static/img/capitals.jpg',
+                    'title': 'Prestolnice',
+                },
+                {
+                    'location': '/oblike-evropskih-drzav-kviz.html',
+                    'image': '/static/img/europe-countries.jpg',
+                    'title': 'Oblike evropskih držav',
                 },
             ],
         }
@@ -102,9 +114,31 @@ templates = [
             'description': 'Zastava je simbol države, ki v prebivalcih vzbuja pripadnost državi ob najrazličnejših dogodkih tako ob proslavah v domovini kot v tujini. Vsaka zastava nam pripoveduje svojo zgodbo in predstavlja barve države. Odkrij katera zastava pripada kateri državi!',
         }
     },
+    {
+        'path': 'quiz.html',
+        'outputPath': 'prestolnice-kviz.html',
+        'data': {
+            'title': 'Prestolnice',
+            'questionsPath': '/static/js/questions-prestolnice.js',
+            'description': 'V kvizu preveri ali poznaš prestolnice svetovnih držav.',
+        }
+    },
+    {
+        'path': 'quiz.html',
+        'outputPath': 'oblike-evropskih-drzav-kviz.html',
+        'data': {
+            'title': 'Oblike evropskih držav',
+            'questionsPath': '/static/js/questions-eu-oblike-drzav.js',
+            'description': 'Kako dobro poznaš oblike držav? Preveri svoje znanje v kvizu o prepoznavanju evropskih držav po obliki!',
+        }
+    },
 ]
 
 env = Environment(loader=FileSystemLoader(f'{templates_dir}/'))
+
+base_data = {
+    'debug': sys.argv[1] == 'debug' if len(sys.argv) > 1 else False,
+}
 
 for template in templates:
     template_path = template['path']
@@ -115,4 +149,5 @@ for template in templates:
     jinja_template = env.from_string(template_text)
 
     with open(f'./{output_path}', 'w', encoding='utf-8') as f:
-        f.write(jinja_template.render(template['data']))
+        data = {**base_data, **template['data']}
+        f.write(jinja_template.render(data))
