@@ -53,6 +53,13 @@ templates = [
                     'title': 'Oblike evropskih držav',
                 },
             ],
+            'literatureQuizCards': [
+                {
+                    'location': 'splosna-knjizevnost-kviz.html',
+                    'image': '/static/img/books.jpg',
+                    'title': 'Splošna književnost'
+                }
+            ],
         }
     },
     {
@@ -130,6 +137,15 @@ templates = [
             'title': 'Oblike evropskih držav',
             'questionsPath': '/static/js/questions-eu-oblike-drzav.js',
             'description': 'Kako dobro poznaš oblike držav? Preveri svoje znanje v kvizu o prepoznavanju evropskih držav po obliki!',
+        }
+    },
+    {
+        'path': 'quiz.html',
+        'outputPath': 'splosna-knjizevnost-kviz.html',
+        'data': {
+            'title': 'Splošna književnost',
+            'questionsPath': '/static/js/questions-knjizevnost.js',
+            'description': 'Preveri svoje znanje iz svetovne in slovenske književnosti.',
         }
     },
 ]

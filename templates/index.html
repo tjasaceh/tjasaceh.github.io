@@ -45,4 +45,21 @@
             </div>
         {% endfor %}
     </div>
+    <div class="title">
+        Kvizi o književnosti
+    </div>
+    <div class="quiz-cards">
+        {% for quizCard in literatureQuizCards %}
+            <div class="quiz-card" onclick="window.location.href = '{{ quizCard["location"] }}'">
+                <div class="quiz-card__image">
+                    <img src="{{  quizCard["image"] }}" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        {{ quizCard["title"] }}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
 {% endblock %}
