@@ -3,47 +3,47 @@ const quizQuestions = [
         'question': 'Kdo ni bil del rimske epike?',
         'answers': [
             {
-                'answer': 'Vergil',
+                'answer': 'Vergil.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Petronij',
+                'answer': 'Petronij.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Apulej',
+                'answer': 'Apulej.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Homer',
+                'answer': 'Homer.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Na čast katerega boga so je v Grčiji razvila komedija?',
+        'question': 'Na čast katerega boga se je v Grčiji razvila komedija?',
         'answers': [
             {
-                'answer': 'Apolona',
+                'answer': 'Apolona.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Aresa',
+                'answer': 'Aresa.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Zevsa',
+                'answer': 'Zevsa.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Dioniza',
+                'answer': 'Dioniza.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -53,22 +53,22 @@ const quizQuestions = [
         'question': 'Kateri sloj prebivalstva največkrat nastopa v komedijah?',
         'answers': [
             {
-                'answer': 'bogovi',
+                'answer': 'Bogovi.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'srednji sloj',
+                'answer': 'Srednji sloj.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'sužnji',
+                'answer': 'Sužnji.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'plemstvo',
+                'answer': 'Plemstvo.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -78,22 +78,22 @@ const quizQuestions = [
         'question': 'Katere komedije ni napisal Plavt?',
         'answers': [
             {
-                'answer': 'Dvojčka',
+                'answer': 'Dvojčka.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Skopuh',
+                'answer': 'Skopuh.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Tartuffe',
+                'answer': 'Tartuffe.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Hišni strah',
+                'answer': 'Hišni strah.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -103,22 +103,22 @@ const quizQuestions = [
         'question': 'Kaj je značilnost srednjega veka?',
         'answers': [
             {
-                'answer': 'razširitev krščanstva',
+                'answer': 'Razširitev krščanstva.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'prvi je človek',
+                'answer': 'Prvi je človek.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'poudarjanje človeškega razuma',
+                'answer': 'Poudarjanje človeškega razuma.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'poudarjanje čustev',
+                'answer': 'Poudarjanje čustev.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -128,22 +128,22 @@ const quizQuestions = [
         'question': 'Kaj je značilnost romantike?',
         'answers': [
             {
-                'answer': 'razširitev krščanstva',
+                'answer': 'Razširitev krščanstva.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'prvi je človek',
+                'answer': 'Prvi je človek.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'poudarjanje čustev',
+                'answer': 'Poudarjanje čustev.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'poudarjanje človeškega razuma',
+                'answer': 'Poudarjanje človeškega razuma.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -153,22 +153,22 @@ const quizQuestions = [
         'question': 'Kaj je značilnost razsvetljenstva?',
         'answers': [
             {
-                'answer': 'poudarjanje čustev',
+                'answer': 'Poudarjanje čustev.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'poudarjanje človeškega razuma',
+                'answer': 'Poudarjanje človeškega razuma.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'prvi je človek',
+                'answer': 'Prvi je človek.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'razširitev krščanstva',
+                'answer': 'Razširitev krščanstva.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -178,22 +178,22 @@ const quizQuestions = [
         'question': 'Kaj je značilnost humanizma in renesanse?',
         'answers': [
             {
-                'answer': 'prvi je človek',
+                'answer': 'Prvi je človek.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'poudarjanje čustev',
+                'answer': 'Poudarjanje čustev.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'poudarjanje človeškega razuma',
+                'answer': 'Poudarjanje človeškega razuma.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'razširitev krščanstva',
+                'answer': 'Razširitev krščanstva.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -203,22 +203,22 @@ const quizQuestions = [
         'question': 'V katero literarno zvrst spada Božanska komedija?',
         'answers': [
             {
-                'answer': 'tragedija',
+                'answer': 'Tragedija.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'roman',
+                'answer': 'Roman.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'pesem',
+                'answer': 'Komedija.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'ep',
+                'answer': 'Ep.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -228,22 +228,22 @@ const quizQuestions = [
         'question': 'Kdo je napisal roman Pod svobodnim soncem?',
         'answers': [
             {
-                'answer': 'Lev Nikolajevič Tolstoj',
+                'answer': 'Lev Nikolajevič Tolstoj.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Ivan Tavčar',
+                'answer': 'Ivan Tavčar.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'France Bevk',
+                'answer': 'France Bevk.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Fran Seleški Finžgar',
+                'answer': 'Fran Seleški Finžgar.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -253,22 +253,22 @@ const quizQuestions = [
         'question': 'Kdo ustvarja vagantsko poezijo?',
         'answers': [
             {
-                'answer': 'duhovniki in menihi',
+                'answer': 'Duhovniki in menihi.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'študenti in potepuhi',
+                'answer': 'Študenti in potepuhi.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'bogati plemiči',
+                'answer': 'Bogati plemiči.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'sužnji',
+                'answer': 'Sužnji.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -278,22 +278,22 @@ const quizQuestions = [
         'question': 'V katero literarno zvrst spadajo Brižinski spomeniki?',
         'answers': [
             {
-                'answer': 'pridiga',
+                'answer': 'Pridiga.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'komedija',
+                'answer': 'Komedija.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'tragedija',
+                'answer': 'Tragedija.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'ep',
+                'answer': 'Ep.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -303,22 +303,22 @@ const quizQuestions = [
         'question': 'Katerega dela ni napisal Fran Levstik?',
         'answers': [
             {
-                'answer': 'Popotovanje od Litije do Čateža',
+                'answer': 'Popotovanje iz Litije do Čateža.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Martin Krpan',
+                'answer': 'Martin Krpan.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Kdo je napravil Vidku srajčico',
+                'answer': 'Kdo je napravil Vidku srajčico.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Deseti brat',
+                'answer': 'Deseti brat.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -328,47 +328,47 @@ const quizQuestions = [
         'question': 'Kako imenujemo posnemovalce Francesca Petrarce?',
         'answers': [
             {
-                'answer': 'plagiatorji',
+                'answer': 'Plagiatorji.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'petrarkisti',
+                'answer': 'Petrarkisti.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'humanisti',
+                'answer': 'Humanisti.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'svobodnjaki',
+                'answer': 'Svobodnjaki.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kdo ne spada med umetnike iz obdobja Humanizma in renesanse?',
+        'question': 'Kdo NE spada med umetnike iz obdobja Humanizma in renesanse?',
         'answers': [
             {
-                'answer': 'Francesco Petrarca',
+                'answer': 'Francesco Petrarca.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Giovanni Bocaccio',
+                'answer': 'Giovanni Bocaccio.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Miguel de Cervantes',
+                'answer': 'Miguel de Cervantes.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Johann Wolfgang Goethe',
+                'answer': 'Johann Wolfgang Goethe.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -378,47 +378,47 @@ const quizQuestions = [
         'question': 'Katero delo je napisal William Shakespeare?',
         'answers': [
             {
-                'answer': 'Othello',
+                'answer': 'Othello.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Don Kihot',
+                'answer': 'Don Kihot.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Sonet št. 61',
+                'answer': 'Sonet št. 61.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Tartuffe',
+                'answer': 'Tartuffe.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Katerega dela ni napisal Primož Trubar?',
+        'question': 'Katerega dela NI napisal Primož Trubar?',
         'answers': [
             {
-                'answer': 'Cerkovna ordninga',
+                'answer': 'Cerkovna ordninga.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Katekizem',
+                'answer': 'Katekizem.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Abecednik',
+                'answer': 'Abecednik.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Zimske urice',
+                'answer': 'Zimske urice.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -428,22 +428,22 @@ const quizQuestions = [
         'question': 'Katerega leta je izšel slovenski prevod Biblije?',
         'answers': [
             {
-                'answer': '1866',
+                'answer': '1866.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': '1484',
+                'answer': '1484.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': '1584',
+                'answer': '1584.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': '1684',
+                'answer': '1684.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -453,22 +453,22 @@ const quizQuestions = [
         'question': 'Katerega leta je izšel prvi slovenski roman Deseti brat?',
         'answers': [
             {
-                'answer': '1484',
+                'answer': '1484.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': '1584',
+                'answer': '1584.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': '1689',
+                'answer': '1689.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': '1866',
+                'answer': '1866.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -478,22 +478,22 @@ const quizQuestions = [
         'question': 'Kateri po vrsti je bil prevod Biblije v slovenščino na svetu?',
         'answers': [
             {
-                'answer': '1. prevod',
+                'answer': '1. prevod.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': '10. prevod',
+                'answer': '10. prevod.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': '55. prevod',
+                'answer': '55. prevod.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': '12. prevod',
+                'answer': '12. prevod.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -503,22 +503,22 @@ const quizQuestions = [
         'question': 'Kdo je predstavnik klasicizma in baroka?',
         'answers': [
             {
-                'answer': 'Rene Descartes',
+                'answer': 'Rene Descartes.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Jean Calvin',
+                'answer': 'Jean Calvin.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Martin Luther',
+                'answer': 'Martin Luther.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Jean Baptiste Poquelin Moliere',
+                'answer': 'Jean Baptiste Poquelin Moliere.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -528,22 +528,22 @@ const quizQuestions = [
         'question': 'Katere igre ni napisal Moliere?',
         'answers': [
             {
-                'answer': 'Namišljeni bolnik',
+                'answer': 'Namišljeni bolnik.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Dvojčka',
+                'answer': 'Dvojčka.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Tartuffe',
+                'answer': 'Tartuffe.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Skopuh',
+                'answer': 'Skopuh.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -553,22 +553,22 @@ const quizQuestions = [
         'question': 'Kdaj je bila izdana Slava vojvodine Kranjske?',
         'answers': [
             {
-                'answer': '1789',
+                'answer': 'Leta 1789.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': '1584',
+                'answer': 'Leta 1584.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': '1689',
+                'answer': 'Leta 1689.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': '1866',
+                'answer': 'Leta 1866.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -578,22 +578,22 @@ const quizQuestions = [
         'question': 'V katerem jeziku je napisana Slava vojvodine Kranjske?',
         'answers': [
             {
-                'answer': 'nemščini',
+                'answer': 'V nemščini.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'slovenščini',
+                'answer': 'V slovenščini.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'latinščini',
+                'answer': 'V latinščini.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'angleščini',
+                'answer': 'V angleščini.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -603,22 +603,22 @@ const quizQuestions = [
         'question': 'Katerega dela ni napisal Anton Tomaž Linhart?',
         'answers': [
             {
-                'answer': 'Ta veseli dan ali Matiček se ženi',
+                'answer': 'Ta veseli dan ali Matiček se ženi.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Županova Micka',
+                'answer': 'Županova Micka.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Pesme za pokušino',
+                'answer': 'Pesme za pokušino.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Poskus zgodovine Krainske',
+                'answer': 'Poskus zgodovine Krainske.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -653,22 +653,22 @@ const quizQuestions = [
         'question': 'Katera Prešernova pesem je likovna pesem ali Carmen figuratum?',
         'answers': [
             {
-                'answer': 'Zdravljica',
+                'answer': 'Zdravljica.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Vrbi',
+                'answer': 'Vrbi.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Povodni mož',
+                'answer': 'Povodni mož.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Pevcu',
+                'answer': 'Pevcu.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -678,22 +678,22 @@ const quizQuestions = [
         'question': 'V katero obdobje spada Henrik Ibsen?',
         'answers': [
             {
-                'answer': 'razsvetljenstvo',
+                'answer': 'V razsvetljenstvo.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'klasicizem in barok',
+                'answer': 'V klasicizem in barok.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'romantika',
+                'answer': 'V romantiko.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'realizem',
+                'answer': 'V realizem.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -703,22 +703,22 @@ const quizQuestions = [
         'question': 'Kaj je motiv v noveli Nikolaja Vasiljevičaa Golgoja Plašč?',
         'answers': [
             {
-                'answer': 'smrt',
+                'answer': 'Smrt.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'položaj mladega človeka',
+                'answer': 'Položaj revnega človeka.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'pohlep',
+                'answer': 'Pohlep.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'plašč',
+                'answer': 'Plašč.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -728,22 +728,22 @@ const quizQuestions = [
         'question': 'Kateri roman je epopeja?',
         'answers': [
             {
-                'answer': 'Gospa Bovary',
+                'answer': 'Gospa Bovary.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Zločin in kazen',
+                'answer': 'Zločin in kazen.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Vojna in mir',
+                'answer': 'Vojna in mir.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Deseti brat',
+                'answer': 'Deseti brat.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -753,22 +753,22 @@ const quizQuestions = [
         'question': 'Kateri je prvi evropski roman?',
         'answers': [
             {
-                'answer': 'Božanska komedija',
+                'answer': 'Božanska komedija.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Zločin in kazen',
+                'answer': 'Zločin in kazen.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Satirikon',
+                'answer': 'Satirikon.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Deseti brat',
+                'answer': 'Deseti brat.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }

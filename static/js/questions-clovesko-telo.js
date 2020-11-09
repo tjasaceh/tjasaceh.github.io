@@ -3,72 +3,72 @@ const quizQuestions = [
         'question': 'V kateri razred spadamo ljudje?',
         'answers': [
             {
-                'answer': 'členonožci',
+                'answer': 'Med členonožce.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'dvoživke',
+                'answer': 'Med dvoživke.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'ptice',
+                'answer': 'Med ptice.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'sesalci',
+                'answer': 'Med sesalce.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'S čim imamo porastlo kožo?',
+        'question': 'S čim imamo ljudje porastlo kožo?',
         'answers': [
             {
-                'answer': 'ničemer',
+                'answer': 'Z ničemer.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'luskami',
+                'answer': 'Z luskami.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'perjem',
+                'answer': 'S perjem.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'dlako',
+                'answer': 'Z dlako.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'S čim se hranijo mladiči ob rojstvu?',
+        'question': 'S čim se hranijo otroci ob rojstvu?',
         'answers': [
             {
-                'answer': 'jajci',
+                'answer': 'Z jajci.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'mlekom',
+                'answer': 'Z mlekom.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'travo',
+                'answer': 'S travo.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'drugimi živalmi',
+                'answer': 'Z drugimi živalmi.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -125,7 +125,7 @@ const quizQuestions = [
         ],
     },
     {
-        'question': 'Iz koliko kosti-vretenc je sestavljena hrbtenica?',
+        'question': 'Iz koliko kosti (vretenc) je sestavljena hrbtenica?',
         'answers': [
             {
                 'answer': '10',
@@ -153,22 +153,22 @@ const quizQuestions = [
         'question': 'Kaj je v hrbteničnem kanalu?',
         'answers': [
             {
-                'answer': 'rebra',
+                'answer': 'Rebra',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'hrbtni mozeg',
+                'answer': 'Hrbtni mozeg',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'vretenca',
+                'answer': 'Vretenca',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'hrbtenica',
+                'answer': 'Hrbtenica',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -178,47 +178,47 @@ const quizQuestions = [
         'question': 'Kosti NISO sestavljene iz',
         'answers': [
             {
-                'answer': 'jedrnate kostnine',
+                'answer': 'jedrnate kostnine.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'kostne sredice',
+                'answer': 'kostne sredice.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'celic',
+                'answer': 'celic.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'kalcija',
+                'answer': 'kalcija.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Katere vrste mišic ne najdemo pri človeku?',
+        'question': 'Katere vrste mišic NE najdemo pri človeku?',
         'answers': [
             {
-                'answer': 'progaste',
+                'answer': 'Progastih mišic.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'gladke',
+                'answer': 'Gladkih mišic.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'srčna mišica',
+                'answer': 'Srčne mišice',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'okrogle',
+                'answer': 'Okroglih mišic.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -228,22 +228,22 @@ const quizQuestions = [
         'question': 'S čim so mišice pripete na kosti?',
         'answers': [
             {
-                'answer': 'z mešanico različnih kemijskih spojin',
+                'answer': 'Z mešanico različnih kemijskih spojin.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'z drugimi mišicami',
+                'answer': 'Z drugimi mišicami.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'kostnim mozgom',
+                'answer': 'S kostnim mozgom.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'snopi vezivnih vlaken',
+                'answer': 'S snopi vezivnih vlaken.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -293,7 +293,7 @@ const quizQuestions = [
                 'isCorrect': false,
             },
             {
-                'answer': '40 miljard',
+                'answer': '20 miljard',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -303,22 +303,22 @@ const quizQuestions = [
         'question': 'Kaj je funkcija srca?',
         'answers': [
             {
-                'answer': 'pretakanje limfe',
+                'answer': 'Pretakanje limfe.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'uravnavanje krvnega obtoka',
+                'answer': 'Uravnavanje krvnega obtoka.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'prebava',
+                'answer': 'Prebavljanje hrane.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'dihanje',
+                'answer': 'Dihanje.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -328,22 +328,22 @@ const quizQuestions = [
         'question': 'Kateri organ NE spada med prebavila?',
         'answers': [
             {
-                'answer': 'jetra',
+                'answer': 'Jetra',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'ledvice',
+                'answer': 'Ledvice',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'črevo',
+                'answer': 'Črevo',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'želodec',
+                'answer': 'Želodec',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -403,22 +403,22 @@ const quizQuestions = [
         'question': 'Kaj sestavlja osrednje živčevje?',
         'answers': [
             {
-                'answer': 'možganov in živcev',
+                'answer': 'Možgani in živci.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'možganov',
+                'answer': 'Možgani.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'možganov in hrbtenjače',
+                'answer': 'Možgani in hrbtenjača.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'hrbtenjače',
+                'answer': 'Hrbtenjača.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -428,22 +428,22 @@ const quizQuestions = [
         'question': 'Kaj sestavlja okrajno ali periferno živčevje?',
         'answers': [
             {
-                'answer': 'hrbtenjača',
+                'answer': 'Hrbtenjača.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'možgani in hrbtenjača',
+                'answer': 'Možgani in hrbtenjača.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'možgani',
+                'answer': 'Možgani.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'živci',
+                'answer': 'Živci.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -453,54 +453,54 @@ const quizQuestions = [
         'question': 'Ob kaj udarijo zvočni signali, ko vstopijo skozi uhelj?',
         'answers': [
             {
-                'answer': 'slušni živec',
+                'answer': 'Slušni živec.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'nakovalce',
+                'answer': 'Nakovalce.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'bobnič',
+                'answer': 'Bobnič.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'slušne receptorje',
+                'answer': 'Slušne receptorje.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kateri okus zaznamo na konici jezika?',
+        'question': 'Na konici jezika zaznavamo',
         'answers': [
             {
-                'answer': 'sladko',
+                'answer': 'sladek okus.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'slano',
+                'answer': 'slan okus.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'grenko',
+                'answer': 'grenak okus.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'kislo',
+                'answer': 'kisel okus.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Koliko ima človek mlečnih zob?',
+        'question': 'Koliko mlečnih zob ima človek?',
         'answers': [
             {
                 'answer': '34',
@@ -553,22 +553,22 @@ const quizQuestions = [
         'question': 'Kako se imenuje oplojeno jajčece?',
         'answers': [
             {
-                'answer': 'semenčica',
+                'answer': 'Semenčica.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'zigota',
+                'answer': 'Zigota.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'oplodek',
+                'answer': 'Oplodek.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'otrok',
+                'answer': 'Otrok.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -578,22 +578,22 @@ const quizQuestions = [
         'question': 'Koliko časa običajno traja nosečnost pri ženski?',
         'answers': [
             {
-                'answer': '34 tednov',
+                'answer': '6 mesecev',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': '36 tednov',
+                'answer': '8 mesecev',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': '38 tednov',
+                'answer': '9 mesecev',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': '40 tednov',
+                'answer': '10 mesecev',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -603,22 +603,22 @@ const quizQuestions = [
         'question': 'Kako se imenuje največja arterija v telesu?',
         'answers': [
             {
-                'answer': 'aorta',
+                'answer': 'Aorta.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'glavna arterija',
+                'answer': 'Glavna arterija.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'vena',
+                'answer': 'Vena.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'kapilara',
+                'answer': 'Kapilara.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -628,22 +628,22 @@ const quizQuestions = [
         'question': 'Kaj je naloga ven?',
         'answers': [
             {
-                'answer': 'omogoča izmenjavo snovi med krvjo in tkivom',
+                'answer': 'Omogočajo izmenjavo snovi med krvjo in tkivom.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'kri priteka iz srca na obrobje telesa',
+                'answer': 'Kri po njih odteka iz srca na obrobje telesa.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'kri priteka iz obrobja telesa v srce',
+                'answer': 'Kri po njih priteka iz obrobja telesa v srce.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'nimajo posebne naloge',
+                'answer': 'Nimajo posebne naloge.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -653,22 +653,22 @@ const quizQuestions = [
         'question': 'Česa običajno NE najdemo v krvi?',
         'answers': [
             {
-                'answer': 'plazma',
+                'answer': 'Plazme.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'bakterij',
+                'answer': 'Bakterij.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'bela in rdeča krvna telesca',
+                'answer': 'Bela in rdeča krvna telesca.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'krvnih ploščic (trombocitov)',
+                'answer': 'Krvnih ploščic (trombocitov).',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -728,22 +728,22 @@ const quizQuestions = [
         'question': 'Kosti so na stičnih mestih gladke in po večini jih prekriva',
         'answers': [
             {
-                'answer': 'sinovialna membrana',
+                'answer': 'sinovialna membrana.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'keratin',
+                'answer': 'keratin.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'sklepno vezivo',
+                'answer': 'sklepno vezivo.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'sklepni hrustanec',
+                'answer': 'sklepni hrustanec.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }

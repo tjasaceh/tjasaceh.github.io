@@ -3,47 +3,47 @@ const quizQuestions = [
         'question': 'V kateri razred spadajo sesalci?',
         'answers': [
             {
-                'answer': 'členonožci',
+                'answer': 'Med členonožce.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'dvoživke',
+                'answer': 'Med dvoživke.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'ptice',
+                'answer': 'Med ptice.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'vretenčarji',
+                'answer': 'Med vretenčarje.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'S čim imajo porastlo kožo?',
+        'question': 'S čim imajo sesalci porastlo kožo?',
         'answers': [
             {
-                'answer': 'ničemer',
+                'answer': 'Z ničemer.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'luskami',
+                'answer': 'Z luskami.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'perjem',
+                'answer': 'S perjem.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'dlako',
+                'answer': 'Z dlako,',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -53,47 +53,47 @@ const quizQuestions = [
         'question': 'S čim se hranijo mladiči ob rojstvu?',
         'answers': [
             {
-                'answer': 'jajci',
+                'answer': 'Z jajci.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'mlekom',
+                'answer': 'Z mlekom.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'travo',
+                'answer': 'S travo.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'drugimi živalmi',
+                'answer': 'Z drugimi živalmi.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kje živijo sesalci?',
+        'question': 'Kje najdemo sesalce?',
         'answers': [
             {
-                'answer': 'v Evropi',
+                'answer': 'V Evropi.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'po celem svetu',
+                'answer': 'Po celem svetu.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'v Aziji',
+                'answer': 'V Aziji.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'v Afriki',
+                'answer': 'V Afriki.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -103,22 +103,22 @@ const quizQuestions = [
         'question': 'S čim dihajo sesalci?',
         'answers': [
             {
-                'answer': 's pljuči',
+                'answer': 'S pljuči.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 's škrgami',
+                'answer': 'S škrgami.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 's kožo',
+                'answer': 'S kožo.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 's fotosintezo',
+                'answer': 'S fotosintezo.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -128,22 +128,22 @@ const quizQuestions = [
         'question': 'Kateri je največji živeči kopenski sesalec?',
         'answers': [
             {
-                'answer': 'tiger',
+                'answer': 'Tiger.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'žirafa',
+                'answer': 'Žirafa.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'slon',
+                'answer': 'Slon.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'krava',
+                'answer': 'Krava.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -153,22 +153,22 @@ const quizQuestions = [
         'question': 'Za kaj slon NE uporablja rilca?',
         'answers': [
             {
-                'answer': 'dihanje',
+                'answer': 'Dihanje.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'hojo',
+                'answer': 'Hojo.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'hranjenje',
+                'answer': 'Hranjenje.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'škropljenje z vodo',
+                'answer': 'Škropljenje z vodo.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -178,22 +178,22 @@ const quizQuestions = [
         'question': 'Po čem določimo starost slona?',
         'answers': [
             {
-                'answer': 'obrabljenost kočnikov',
+                'answer': 'Po obrabljenosti kočnikov.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'obrabljenost oklov',
+                'answer': 'Po obrabljenosti oklov.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'dolžini rilca',
+                'answer': 'Po dolžini rilca.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'zobeh',
+                'answer': 'Po zobeh.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -203,47 +203,47 @@ const quizQuestions = [
         'question': 'Kdo je prednik slona?',
         'answers': [
             {
-                'answer': 'bivol',
+                'answer': 'Bivol.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'krokodil',
+                'answer': 'Krokodil.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'dinozaver',
+                'answer': 'Dinozaver.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'mamut',
+                'answer': 'Mamut.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Katera žival poleg slona je debelokožec?',
+        'question': 'Katera žival je debelokožec?',
         'answers': [
             {
-                'answer': 'kača',
+                'answer': 'Kača.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'pes',
+                'answer': 'Pes.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'krava',
+                'answer': 'Krava.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'nosorog',
+                'answer': 'Nosorog.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -253,22 +253,22 @@ const quizQuestions = [
         'question': 'Kako žirafe skotijo mladiče?',
         'answers': [
             {
-                'answer': 'na boku',
+                'answer': 'Na boku.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'stoje',
+                'answer': 'Stoje.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'v vodi',
+                'answer': 'Skotijo jih v vodi.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'na hrbtu',
+                'answer': 'Na hrbtu.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -278,22 +278,22 @@ const quizQuestions = [
         'question': 'Kaj pomeni hibernacija?',
         'answers': [
             {
-                'answer': 'spanje preko zime',
+                'answer': 'Spanje preko zime.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'nabiranje plodov',
+                'answer': 'Nabiranje plodov.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'iskanje hrane',
+                'answer': 'Iskanje hrane.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'parjenje',
+                'answer': 'Parjenje.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -303,22 +303,22 @@ const quizQuestions = [
         'question': 'Katera žival prespi zimo?',
         'answers': [
             {
-                'answer': 'pes',
+                'answer': 'Pes.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'rakun',
+                'answer': 'Rakun.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'slon',
+                'answer': 'Slon.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'opica',
+                'answer': 'Opica.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -328,22 +328,22 @@ const quizQuestions = [
         'question': 'Zakaj opice potrebujejo rep?',
         'answers': [
             {
-                'answer': 'za hojo',
+                'answer': 'Za hojo.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'za ravnotežje med plezanjem',
+                'answer': 'Za ravnotežje med plezanjem.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'za boje',
+                'answer': 'Za boje.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'za nabiranje hrane',
+                'answer': 'Za nabiranje hrane.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -353,22 +353,22 @@ const quizQuestions = [
         'question': 'Katera žival je najbolj podobna človeku?',
         'answers': [
             {
-                'answer': 'medved',
+                'answer': 'Medved.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'krava',
+                'answer': 'Krava.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'riba',
+                'answer': 'Riba.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'opica',
+                'answer': 'Opica.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -378,22 +378,22 @@ const quizQuestions = [
         'question': 'Iz katere živali izvira domači pes?',
         'answers': [
             {
-                'answer': 'volka',
+                'answer': 'Iz volka.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'risa',
+                'answer': 'Iz risa.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'leva',
+                'answer': 'Iz leva.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'medveda',
+                'answer': 'Iz medveda.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -403,22 +403,22 @@ const quizQuestions = [
         'question': 'Katera sta najbolj razvita čuta pri psih?',
         'answers': [
             {
-                'answer': 'voh in okus',
+                'answer': 'Voh in okus.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'sluh in okus',
+                'answer': 'Sluh in okus.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'voh in sluh',
+                'answer': 'Voh in sluh.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'otip in voh',
+                'answer': 'Otip in voh.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -428,22 +428,22 @@ const quizQuestions = [
         'question': 'Katere živali NE spadajo v družino konjev?',
         'answers': [
             {
-                'answer': 'konji',
+                'answer': 'Konji.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'zebre',
+                'answer': 'Zebre.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'osli',
+                'answer': 'Osli.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'žirafe',
+                'answer': 'Žirafe.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -453,22 +453,22 @@ const quizQuestions = [
         'question': 'Kako določimo starost konja?',
         'answers': [
             {
-                'answer': 'po dlaki',
+                'answer': 'Po dlaki.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'po kopitih',
+                'answer': 'Po kopitih.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'po zobeh',
+                'answer': 'Po zobeh.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'po jeziku',
+                'answer': 'Po jeziku.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -478,22 +478,22 @@ const quizQuestions = [
         'question': 'Katera lastnost uvršča govedo med prežvekovalce?',
         'answers': [
             {
-                'answer': '4-delni želodec',
+                'answer': '4-delni želodec.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'zobje',
+                'answer': 'Zobje.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'hranjenje s trdo hrano',
+                'answer': 'Hranjenje s trdo hrano.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'jezik',
+                'answer': 'Jezik.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -503,22 +503,22 @@ const quizQuestions = [
         'question': 'Katera žival iz družine mačk je najboljši tekač?',
         'answers': [
             {
-                'answer': 'lev',
+                'answer': 'Lev.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'ris',
+                'answer': 'Ris.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'leopard',
+                'answer': 'Leopard.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'gepard',
+                'answer': 'Gepard.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -528,22 +528,22 @@ const quizQuestions = [
         'question': 'Katero ljudstvo je častilo mačke kot svete živali?',
         'answers': [
             {
-                'answer': 'Slovenci',
+                'answer': 'Slovenci.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Izraelci',
+                'answer': 'Izraelci.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Perzijci',
+                'answer': 'Perzijci.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Egipčani',
+                'answer': 'Egipčani.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -553,22 +553,22 @@ const quizQuestions = [
         'question': 'Kaj je najljubša hrana večine glodalcev?',
         'answers': [
             {
-                'answer': 'meso',
+                'answer': 'Meso.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'rastline',
+                'answer': 'Rastline.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'žuželke',
+                'answer': 'Žuželke.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'miši',
+                'answer': 'Miši.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -578,22 +578,22 @@ const quizQuestions = [
         'question': 'Kako se imenuje največji glodalec na svetu?',
         'answers': [
             {
-                'answer': 'veverica',
+                'answer': 'Veverica.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'bober',
+                'answer': 'Bober.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'kapibara',
+                'answer': 'Kapibara.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'podgana',
+                'answer': 'Podgana.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -603,22 +603,22 @@ const quizQuestions = [
         'question': 'Kako veverica prenaša hrano, ki jo shrani za zimo?',
         'answers': [
             {
-                'answer': 'nosi jo v licih',
+                'answer': 'Nosi jo v licih.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'nosi jo v tačkah',
+                'answer': 'Nosi jo v tačkah.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'nosi jo na repu',
+                'answer': 'Nosi jo na repu.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'nosi jo na drevesnem listu',
+                'answer': 'Nosi jo na drevesnem listu.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -628,22 +628,22 @@ const quizQuestions = [
         'question': 'Kdaj je jež najbolj aktiven?',
         'answers': [
             {
-                'answer': 'podnevi',
+                'answer': 'Podnevi.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'pozimi',
+                'answer': 'Pozimi.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'ponoči',
+                'answer': 'Ponoči.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'sredi dneva',
+                'answer': 'Sredi dneva.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -653,22 +653,22 @@ const quizQuestions = [
         'question': 'Kaj je najljubša hrana ježev?',
         'answers': [
             {
-                'answer': 'trava',
+                'answer': 'Trava.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'jabolka',
+                'answer': 'Jabolka.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'banane',
+                'answer': 'Banane.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'lešniki',
+                'answer': 'Lešniki.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -678,22 +678,22 @@ const quizQuestions = [
         'question': 'Kaj so bodice ježev?',
         'answers': [
             {
-                'answer': 'preobražene dlake',
+                'answer': 'Preobražene dlake.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'preobražene roke',
+                'answer': 'Preobražene roke.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'izrastki iz kože',
+                'answer': 'Izrastki iz kože.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'bradavice',
+                'answer': 'Bradavice.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -703,22 +703,22 @@ const quizQuestions = [
         'question': 'Morski sesalci ob rojstvu jedo',
         'answers': [
             {
-                'answer': 'bakterije iz vode',
+                'answer': 'bakterije iz vode.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'manjše ribe',
+                'answer': 'manjše ribe.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'morsko travo',
+                'answer': 'morsko travo.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'materino mleko',
+                'answer': 'materino mleko.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -728,22 +728,22 @@ const quizQuestions = [
         'question': 'Iz koga so se razvili sesalci?',
         'answers': [
             {
-                'answer': 'rib',
+                'answer': 'Iz rib.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'psov',
+                'answer': 'Iz psov.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'rastlin',
+                'answer': 'Iz rastlin.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'plazilcev in ptičev',
+                'answer': 'Iz plazilcev in ptičev.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }

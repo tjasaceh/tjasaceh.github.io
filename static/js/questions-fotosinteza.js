@@ -3,22 +3,22 @@ const quizQuestions = [
         'question': 'V katerem delu rastline poteka fotosinteze?',
         'answers': [
             {
-                'answer': 'v semenu',
+                'answer': 'V semenu.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'v cvetu',
+                'answer': 'V cvetu.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'v koreninah',
+                'answer': 'V koreninah.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'v zelenih delih',
+                'answer': 'V zelenih delih.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -28,22 +28,22 @@ const quizQuestions = [
         'question': 'Katero barvilo je ključno za fotosintezo?',
         'answers': [
             {
-                'answer': 'karoten',
+                'answer': 'Karoten.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'cianin klorid',
+                'answer': 'Cianin klorid.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'ksantofil',
+                'answer': 'Ksantofil.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'klorofil',
+                'answer': 'Klorofil.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -53,22 +53,22 @@ const quizQuestions = [
         'question': 'V katerem ogranelu poteka fotosinteza?',
         'answers': [
             {
-                'answer': 'v mitohondriju',
+                'answer': 'V mitohondriju.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'v kloroplastu',
+                'answer': 'V kloroplastu.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'v jedru',
+                'answer': 'V jedru.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'v celični steni',
+                'answer': 'V celični steni.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -78,22 +78,22 @@ const quizQuestions = [
         'question': 'Kaj NI pomembno za potek fotosinteze?',
         'answers': [
             {
-                'answer': 'voda',
+                'answer': 'Voda.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'ogljikov dioksid',
+                'answer': 'Ogljikov dioksid.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'sladkor',
+                'answer': 'Sladkor.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'sončna svetloba',
+                'answer': 'Sončna svetloba.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -118,7 +118,7 @@ const quizQuestions = [
                 'isCorrect': false,
             },
             {
-                'answer': 'Ker med fotosintezo rastlina črpa vodo iz prsti.',
+                'answer': 'Ker med fotosintezo rastline črpajo vodo iz prsti.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -128,22 +128,22 @@ const quizQuestions = [
         'question': 'Kaj se iz listov sprošča v okolje?',
         'answers': [
             {
-                'answer': 'dušik',
+                'answer': 'Dušik.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'ogljikov dioksid',
+                'answer': 'Ogljikov dioksid.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'kisik',
+                'answer': 'Kisik.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'ozon',
+                'answer': 'Ozon.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -153,22 +153,22 @@ const quizQuestions = [
         'question': 'Kdaj poteka fotosinteza?',
         'answers': [
             {
-                'answer': 'podnevi',
+                'answer': 'Podnevi.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'ves čas',
+                'answer': 'Ves čas.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'samo zjutraj',
+                'answer': 'Samo zjutraj.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'ponoči',
+                'answer': 'Ponoči.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -178,22 +178,22 @@ const quizQuestions = [
         'question': 'V kaj se pretvori odvečni sladkor?',
         'answers': [
             {
-                'answer': 'lignin',
+                'answer': 'V lignin.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'ksilem',
+                'answer': 'V ksilem.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'škrob',
+                'answer': 'V škrob.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'klorofil',
+                'answer': 'V klorofil.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -203,22 +203,22 @@ const quizQuestions = [
         'question': 'Kam rastlina NE shrani pretvorjeni odvečni sladkor?',
         'answers': [
             {
-                'answer': 'korenine',
+                'answer': 'V korenine.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'steblo',
+                'answer': 'V steblo.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'plodove',
+                'answer': 'V plodove.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'liste',
+                'answer': 'V liste.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -228,47 +228,47 @@ const quizQuestions = [
         'question': 'Kdaj rastlina porabi shranjen sladkor?',
         'answers': [
             {
-                'answer': 'ponoči',
+                'answer': 'Ponoči.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'ko ima dovolj svetlobe',
+                'answer': 'Ko ima dovolj svetlobe.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'ko je v zemlji premalo vode',
+                'answer': 'Ko je v zemlji premalo vode.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'ko potrebuje več hrane, kot je pridela',
+                'answer': 'Ko potrebuje več hrane, kot je pridela.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Kaatere spektre svetlobe absorbira klorofil?',
+        'question': 'Katere spektre svetlobe absorbira klorofil?',
         'answers': [
             {
-                'answer': 'zelene spektre',
+                'answer': 'Zelene spektre.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'modri in rdeči del spektra',
+                'answer': 'Modri in rdeči del spektra.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'rdeče spektre',
+                'answer': 'Rdeče spektre.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'rdeče in zelene spektre',
+                'answer': 'Rdeče in zelene spektre.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -278,22 +278,22 @@ const quizQuestions = [
         'question': 'Kdaj poteka celično dihanje?',
         'answers': [
             {
-                'answer': 'ves čas',
+                'answer': 'Ves čas.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'podnevi',
+                'answer': 'Podnevi.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'ponoči',
+                'answer': 'Ponoči.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'zjutraj',
+                'answer': 'Zjutraj.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -303,22 +303,22 @@ const quizQuestions = [
         'question': 'Kateri ion najdemo v molekuli klorofila?',
         'answers': [
             {
-                'answer': 'železov ion',
+                'answer': 'Železov ion.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'magnezijev ion',
+                'answer': 'Magnezijev ion.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'kalcijev ion',
+                'answer': 'Kalcijev ion.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'natrijev ion',
+                'answer': 'Natrijev ion.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -378,22 +378,22 @@ const quizQuestions = [
         'question': 'Kje najdemo največ kloroplastov?',
         'answers': [
             {
-                'answer': 'v zelenem listu',
+                'answer': 'V zelenem listu.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'v cvetu',
+                'answer': 'V cvetu.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'v koreninah',
+                'answer': 'V koreninah.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'v steblu',
+                'answer': 'V steblu.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -403,22 +403,22 @@ const quizQuestions = [
         'question': 'Čemu služijo listne reže?',
         'answers': [
             {
-                'answer': 'pridobivanju mineralnih snovi',
+                'answer': 'Pridobivanju mineralnih snovi.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'pridobivanju vode',
+                'answer': 'Pridobivanju vode.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'izmenjavi plinov in izhlapevanju vode',
+                'answer': 'Izmenjavi plinov in izhlapevanju vode.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'sprejemanju CO2 iz zraka',
+                'answer': 'Sprejemanju CO2 iz zraka.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -453,22 +453,22 @@ const quizQuestions = [
         'question': 'Rastline sodijo med',
         'answers': [
             {
-                'answer': 'prokarionte',
+                'answer': 'prokarionte.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'glive',
+                'answer': 'glive.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'evkarionte',
+                'answer': 'evkarionte.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'viruse',
+                'answer': 'viruse.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -478,22 +478,22 @@ const quizQuestions = [
         'question': 'Kako imenujemo cevke, ki potekajo skozi steblo rastlin?',
         'answers': [
             {
-                'answer': 'floemske in ksilemske',
+                'answer': 'Floemske in ksilemske.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'dovodne cevi',
+                'answer': 'Dovodne cevi.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'stebelne cevi',
+                'answer': 'Stebelne cevi.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'floem',
+                'answer': 'Floem.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -503,22 +503,22 @@ const quizQuestions = [
         'question': 'Kaj je transpiracija?',
         'answers': [
             {
-                'answer': 'način fotosinteze',
+                'answer': 'Način fotosinteze.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'črpanje vode iz korenin v liste',
+                'answer': 'Črpanje vode iz korenin v liste.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'prenašanje hranilnih snovi in vode iz korenin v liste',
+                'answer': 'Prenašanje hranilnih snovi in vode iz korenin v liste.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'izhlapevanje vode skozi listne reže',
+                'answer': 'Izhlapevanje vode skozi listne reže.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -528,22 +528,22 @@ const quizQuestions = [
         'question': 'Iz česa je v glavnem sestavljena celična stena rastlin?',
         'answers': [
             {
-                'answer': 'iz maščobnih kislin',
+                'answer': 'Iz maščobnih kislin.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'iz pektina',
+                'answer': 'Iz pektina.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'iz lignina',
+                'answer': 'Iz lignina.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'iz celuloze',
+                'answer': 'Iz celuloze.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -553,22 +553,22 @@ const quizQuestions = [
         'question': 'Kaj je fototropizem?',
         'answers': [
             {
-                'answer': 'rast rastline v smeri vode',
+                'answer': 'Rast rastline v smeri vode.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'rast rastline v smeri sončne svetlobe',
+                'answer': 'Rast rastline v smeri sončne svetlobe.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'rast rastline v smeri zemlje',
+                'answer': 'Rast rastline v smeri zemlje.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'uporaba sončne energije za proces fotosinteze',
+                'answer': 'Uporaba sončne energije za proces fotosinteze.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -578,22 +578,22 @@ const quizQuestions = [
         'question': 'Na kakšen način se razmnožujejo rastine?',
         'answers': [
             {
-                'answer': 'spolno',
+                'answer': 'Spolno.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'nespolno',
+                'answer': 'Nespolno.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'spolno in nespolno',
+                'answer': 'Spolno in nespolno.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 's semeni',
+                'answer': 'S semeni.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }

@@ -33,17 +33,17 @@ const quizQuestions = [
                 'isCorrect': false,
             },
             {
-                'answer': 'spolne celice',
+                'answer': 'Spolna celica.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'jajčece',
+                'answer': 'Jajčece.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'gen',
+                'answer': 'Gen.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -78,47 +78,47 @@ const quizQuestions = [
         'question': 'V katerih človeških celicah NE najdemo genov?',
         'answers': [
             {
-                'answer': 'spolne celice',
+                'answer': 'V spolnih celicah.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'levkociti',
+                'answer': 'V levkocitih.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'eritrociti',
+                'answer': 'V eritrocitih.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'trombociti',
+                'answer': 'V trombocitih.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'V kakšni obliki je večino dednega materiala v jedru celice?',
+        'question': 'V kakšni obliki je večina dednega materiala v jedru celice?',
         'answers': [
             {
-                'answer': 'v obliki kromosomov',
+                'answer': 'V obliki kromosomov.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'v obliki žoge',
+                'answer': 'V obliki žoge.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'v mitohondriju',
+                'answer': 'Stisnjen je v mitohondrij.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'raztopljen v tekočini',
+                'answer': 'Raztopljen je v tekočini.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -128,22 +128,22 @@ const quizQuestions = [
         'question': 'Kje se nahaja preostanek dednega materiala v živalski celici (večina ga je v jedru)?',
         'answers': [
             {
-                'answer': 'pripet na membrano jedra',
+                'answer': 'Pripet je na membrano jedra.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'raztopljen v citoplazmi',
+                'answer': 'Raztopljen je v citoplazmi.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'v mitohondriju',
+                'answer': 'V mitohondriju.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'v kloroplastu',
+                'answer': 'V kloroplastu.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -153,22 +153,22 @@ const quizQuestions = [
         'question': 'Kje NE najdemo dednega materiala v rastlinski celici?',
         'answers': [
             {
-                'answer': 'v kloroplastu',
+                'answer': 'V kloroplastu.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'v endoplazmatskem retikulumu',
+                'answer': 'V endoplazmatskem retikulumu.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'v jedru',
+                'answer': 'V jedru.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'v mitohondriju',
+                'answer': 'V mitohondriju.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -253,22 +253,22 @@ const quizQuestions = [
         'question': 'Ljudje z Downovim sindromom imajo v vsaki celici tri ___',
         'answers': [
             {
-                'answer': 'jedra',
+                'answer': 'jedra.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'kopije 21. kromosoma',
+                'answer': 'kopije 21. kromosoma.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'mitohondrije',
+                'answer': 'mitohondrije.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'kopije 23. kromosoma',
+                'answer': 'kopije 23. kromosoma.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -378,22 +378,22 @@ const quizQuestions = [
         'question': 'Katero rastlino je v glavnem preučeval Gregor Mendel?',
         'answers': [
             {
-                'answer': 'grah',
+                'answer': 'Grah.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'fižol',
+                'answer': 'Fižol.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'paradižnik',
+                'answer': 'Paradižnik.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'bob',
+                'answer': 'Bob.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -403,22 +403,22 @@ const quizQuestions = [
         'question': 'Kdo je v jedru našel in poimenoval nukleinske kisline?',
         'answers': [
             {
-                'answer': 'Charles Darwin',
+                'answer': 'Charles Darwin.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Gregor Mendel',
+                'answer': 'Gregor Mendel.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Friedrich Miescher',
+                'answer': 'Friedrich Miescher.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'James Watson in Francis Crick',
+                'answer': 'James Watson in Francis Crick.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -428,22 +428,22 @@ const quizQuestions = [
         'question': 'Kdo je odkril dvojno vijačnico DNA?',
         'answers': [
             {
-                'answer': 'Marie Curie',
+                'answer': 'Marie Curie.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Alexander Fleming',
+                'answer': 'Alexander Fleming.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Kary Mullis',
+                'answer': 'Kary Mullis.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'James Watson in Francis Crick',
+                'answer': 'James Watson in Francis Crick.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
@@ -453,22 +453,22 @@ const quizQuestions = [
         'question': 'Kaj označuje kratica GSO?',
         'answers': [
             {
-                'answer': 'gensko spremenjen organ',
+                'answer': 'Gensko spremenjen organ.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'gensko sortiran organizem',
+                'answer': 'Gensko sortiran organizem.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'gensko spremenjen organizem',
+                'answer': 'Gensko spremenjen organizem.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'gensko slep organizem',
+                'answer': 'Gensko slep organizem.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
@@ -500,25 +500,25 @@ const quizQuestions = [
         ],
     },
     {
-        'question': 'Kateri organizem je najpogosteje genetsko spremenjen?',
+        'question': 'Katera rastlina je najpogosteje genetsko spremenjena?',
         'answers': [
             {
-                'answer': 'limona',
+                'answer': 'Limona.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'jabolko',
+                'answer': 'Jabolko.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'češnja',
+                'answer': 'Češnja.',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'soja',
+                'answer': 'Soja.',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
