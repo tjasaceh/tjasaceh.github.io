@@ -60,6 +60,18 @@ templates = [
                     'title': 'Splošna književnost'
                 }
             ],
+            'slovenianQuizCards': [
+                {
+                    'location': 'visine-slovenskih-gora-kviz.html',
+                    'image': '/static/img/mountains.jpg',
+                    'title': 'Višine slovenskih gora'
+                },
+                {
+                    'location': 'slovenske-planinske-koce-kviz.html',
+                    'image': '/static/img/koca.jpg',
+                    'title': 'Slovenske planinske koče'
+                }
+            ],
         }
     },
     {
@@ -146,6 +158,24 @@ templates = [
             'title': 'Splošna književnost',
             'questionsPath': '/static/js/questions-knjizevnost.js',
             'description': 'Preveri svoje znanje iz svetovne in slovenske književnosti.',
+        }
+    },
+    {
+        'path': 'quiz.html',
+        'outputPath': 'visine-slovenskih-gora-kviz.html',
+        'data': {
+            'title': 'Višine slovenskih gora',
+            'questionsPath': '/static/js/questions-visine.js',
+            'description': 'Nadmorska višina je višina nekega kraja nad gladino morja. Vsak vrh ima izmerjeno svojo nadmorsko višino, zato v kvizu preveri, kako dobro si si zapomnil nadmorsko višino zadnjega osvojenega vrha.',
+        }
+    },
+    {
+        'path': 'quiz.html',
+        'outputPath': 'slovenske-planinske-koce-kviz.html',
+        'data': {
+            'title': 'Slovenske planinske koče',
+            'questionsPath': '/static/js/questions-koce.js',
+            'description': 'Planinska koča je varno zatočišče pred nevihto v gorah in prostor, kjer se lahko po dolgi poti sprostimo in okrepčamo. Planinci radi izbiramo pohodniške cilje, ki imajo na poti tudi planinsko kočo. Preveri kako dobro poznaš slovenske planinske koče in morda dobiš navdih za naslednji planinski izlet.',
         }
     },
 ]

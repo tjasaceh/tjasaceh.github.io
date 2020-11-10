@@ -1,749 +1,779 @@
 const quizQuestions = [
     {
-        'question': 'Kaj je celica?',
+        'question': '',
+        'image': 'koce/kredarica.jpg',
         'answers': [
             {
-                'answer': 'Celica je strukturna in funkcionalna enota vseh rastlin.',
+                'answer': 'Zasavska koča na Prehodavcih',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Celica je strukturna in funkcionalna enota vseh živih organizmov razen bakterij.',
+                'answer': 'Prešernova koča na Stolu',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Celica je strukturna in funkcionalna enota vseh živali.',
+                'answer': 'Dom Planika pod Triglavom',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Celica je strukturna in funkcionalna enota vseh živih organizmov.',
+                'answer': 'Triglavski dom na Kredarici',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Iz koliko celic so sestavljeni enoceličarji?',
+        'question': '',
+        'image': 'koce/planika.jpg',
         'answers': [
             {
-                'answer': 'Iz nešteto celic.',
+                'answer': 'Cojzova koča na Kokrskem Sedlu',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Iz več tisoč.',
+                'answer': 'Vodnikov dom na Velem polju',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Iz dveh celic.',
+                'answer': 'Triglavski dom na Kredarici',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Iz ene celice.',
+                'answer': 'Dom Planika pod Triglavom',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Iz približno koliko celic so sestavljeni mnogoceličarji?',
+        'question': '',
+        'image': 'koce/dolic.jpg',
         'answers': [
             {
-                'answer': 'Iz 1 miljarde celic.',
+                'answer': 'Aljažev dom v Vratih',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Iz 100 biljonov celic.',
+                'answer': 'Koča na Doliču',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Iz več 100 celic.',
+                'answer': 'Zasavska koča na Prehodavcih',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Iz 1 celice.',
+                'answer': 'Dom Planika pod Triglavom',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kateri znanstvenik je prvi odkril in poimenoval celico?',
+        'question': '',
+        'image': 'koce/prehodavci.jpg',
         'answers': [
             {
-                'answer': 'Antonie van Leeuwenhoek.',
+                'answer': 'Planinski dom na Zelenici',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Louis Pasteur.',
+                'answer': 'Koča na Doliču',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Robert Hooke.',
+                'answer': 'Zasavska koča na Prehodavcih',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Charles Darwin.',
+                'answer': 'Dom Planika pod Triglavom',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Katera panoga biologije se ukvarja s celicami?',
+        'question': '',
+        'image': 'koce/kriski-podi.jpg',
         'answers': [
             {
-                'answer': 'Celična biologija.',
+                'answer': 'Pogačnikov dom na Kriških podih',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Celična anatomija.',
+                'answer': 'Dom Planika pod Triglavom',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Botanika.',
+                'answer': 'Češka koča na Spodnjih Ravneh',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Mikrobiologija.',
+                'answer': 'Gomiščkovo zavetišče na Krnu',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Izberi največjo celico.',
+        'question': '',
+        'image': 'koce/sedmera.jpg',
         'answers': [
             {
-                'answer': 'Virusna celica.',
+                'answer': 'Koča na Blegošu',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Bakterijska celica.',
+                'answer': 'Blejska koča na Lipanci',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Rastlinska celica.',
+                'answer': 'Koča pri Triglavskih jezerih',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Živalska celica.',
+                'answer': 'Koča na Planini pri Jezeru',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kaj najdemo tudi v živalski celici?',
+        'question': '',
+        'image': 'koce/jezero.jpg',
         'answers': [
             {
-                'answer': 'Vakuolo.',
+                'answer': 'Koča na Travniku',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Celično membrano.',
+                'answer': 'Koča na Planini pri Jezeru',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Celično steno.',
+                'answer': 'Koča pri Triglavskih jezerih',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Kloroplaste.',
+                'answer': 'Blejska koča na Lipanci',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kaj najdemo na zrnatem endoplazmatskem retikulumu?',
+        'question': '',
+        'image': 'koce/savica.jpg',
         'answers': [
             {
-                'answer': 'Ribosome.',
+                'answer': 'Koča pri Savici',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Lizosome.',
+                'answer': 'Valvasorjev dom pod Stolom',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Vakuolo.',
+                'answer': 'Aljažev dom v Vratih',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Mitohondrij.',
+                'answer': 'Koča na Travniku',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kaj poteka na ribosomih?',
+        'question': '',
+        'image': 'koce/mala-planina.jpg',
         'answers': [
             {
-                'answer': 'Fotosinteza.',
+                'answer': 'Jarški dom na Mali planini',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Podvojevanje DNA.',
+                'answer': 'Planinski dom pri Krnskih jezerih',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Sinteza maščob.',
+                'answer': 'Koča na Travniku',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Sinteza beljakovin.',
+                'answer': 'Domžalski dom na Mali planini',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Kaj najdemo v lizosomih?',
+        'question': '',
+        'image': 'koce/kum.jpg',
         'answers': [
             {
-                'answer': 'Citoplazmo.',
+                'answer': 'Koča na Blegošu',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Maščobe.',
+                'answer': 'Dom na Lubniku',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Ribosome.',
+                'answer': 'Dom na Krimu',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Prebavne encime.',
+                'answer': 'Planinski dom na Kumu',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Kateri organel ima lastno DNA?',
+        'question': '',
+        'image': 'koce/krim.jpg',
         'answers': [
             {
-                'answer': 'Ribosom.',
+                'answer': 'Planinski dom na Kumu',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Mitohondrij.',
+                'answer': 'Dom na Krimu',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Vakuola.',
+                'answer': 'Koča na Blegošu',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Golgijev aparat.',
+                'answer': 'Tončkov dom na Lisci',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kaj je naloga mitohondrijev?',
+        'question': '',
+        'image': 'koce/lisca.jpg',
         'answers': [
             {
-                'answer': 'Celično dihanje.',
+                'answer': 'Tončkov dom na Lisci',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Fotosinteza.',
+                'answer': 'Dom na Lubniku',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Podvojevanje DNA.',
+                'answer': 'Koča na Travniku',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Celična delitev.',
+                'answer': 'Tičarjev dom na Vršiču',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kako imenujemo gube notranje membrane kloroplasta?',
+        'question': '',
+        'image': 'koce/lubnik.jpg',
         'answers': [
             {
-                'answer': 'Kloroplastne gube.',
+                'answer': 'Kranjska koča na Ledinah',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Tilakoide.',
+                'answer': 'Dom na Lubniku',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Tonoplast.',
+                'answer': 'Vojkova koča na Nanosu',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Endoplazmatski retikulum.',
+                'answer': 'Dom na Krimu',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kaj rastline kopičijo v vakuoli?',
+        'question': '',
+        'image': 'koce/blegos.jpg',
         'answers': [
             {
-                'answer': 'Snovi za rast in razvoj.',
+                'answer': 'Blejska koča na Lipanci',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Odpadne produkte.',
+                'answer': 'Koča na Blegošu',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Molekule ATP.',
+                'answer': 'Koča na Travniku',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'DNA.',
+                'answer': 'Tončkov dom na Lisci',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'V jedru celice je dedni zapis v obliki tankih nitk',
+        'question': '',
+        'image': 'koce/blejska-koca.jpg',
         'answers': [
             {
-                'answer': 'intermediarnih filamentov.',
+                'answer': 'Koča pri Savici',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'mikrofilamentov.',
+                'answer': 'Tičarjev dom na Vršiču',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'mikrotubulov.',
+                'answer': 'Koča na Blegošu',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'kromatina.',
+                'answer': 'Blejska koča na Lipanci',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Kaj nastaja v jedrcu?',
+        'question': '',
+        'image': 'koce/vodnikov-dom.jpg',
         'answers': [
             {
-                'answer': 'Ribosomi.',
+                'answer': 'Vodnikov dom na Velem polju',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'ATP.',
+                'answer': 'Planinska koča na Dobrči',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Kromatin.',
+                'answer': 'Dom Planika pod Triglavom',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Mikrotubuli.',
+                'answer': 'Pogačnikov dom na Kriških podih',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kaj je naloga mikrotubulov?',
+        'question': '',
+        'image': 'koce/vrata.jpg',
         'answers': [
             {
-                'answer': 'Celična delitev.',
+                'answer': 'Koča pri Savici',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Transport snovi znotraj celice.',
+                'answer': 'Planinski dom pri Krnskih jezerih',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Transport snovi znotraj celice in sodelovanje pri celični delitvi.',
+                'answer': 'Aljažev dom v Vratih',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Krčenje mišic in sodelovanje pri celični delitvi.',
+                'answer': 'Valvasorjev dom pod Stolom',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Dopolni stavek. Mikrofilamenti so sestavljeni iz beljakovine ___ in so pomembni pri ___ .',
+        'question': '',
+        'image': 'koce/stol.jpg',
         'answers': [
             {
-                'answer': 'aktin, celični delitvi',
+                'answer': 'Roblekov dom na Begunjščici',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'tubulin, transportu snovi znotraj celice',
+                'answer': 'Češka koča na Spodnjih Ravneh',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'tubulin, celični delitvi',
+                'answer': 'Kranjska koča na Ledinah',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'aktin, krčenju mišic',
+                'answer': 'Prešernova koča na Stolu',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Kaj je glavna naloga endoplazmatskega retikuluma?',
+        'question': '',
+        'image': 'koce/nanos.jpg',
         'answers': [
             {
-                'answer': 'Sinteza proteinov.',
+                'answer': 'Aljažev dom v Vratih',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Podvojevanje DNA.',
+                'answer': 'Koča na Planini pri Jezeru',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Zorjenje in usmerjanje proteinov.',
+                'answer': 'Vojkova koča na Nanosu',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Obdelava in razvrščanje proteinov in lipidov za transport v druge organele ter sinteza glikoproteinov.',
+                'answer': 'Domžalski dom na Mali planini',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kaj je glavna naloga Golgijevega aparata?',
+        'question': '',
+        'image': 'koce/cojzova-koca.jpg',
         'answers': [
             {
-                'answer': 'Sinteza proteinov.',
+                'answer': 'Kamniška koča na Kamniškem sedlu',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Podvojevanje DNA.',
+                'answer': 'Pogačnikov dom na Kriških podih',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Zorjenje in usmerjanje proteinov.',
+                'answer': 'Dom Planika pod Triglavom',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Obdelava in razvrščanje proteinov in lipidov za transport v druge organele ter sinteza glikoproteinov.',
+                'answer': 'Cojzova koča na Kokrskem Sedlu',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Kaj poleg sinteze glikoproteinov in usmerjanja proteinov v druge organele še poteka v Golgijevem aparatu?',
+        'question': '',
+        'image': 'koce/ceska-koca.jpg',
         'answers': [
             {
-                'answer': 'Sinteza proteinov.',
+                'answer': 'Kranjska koča na Ledinah',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Podvojevanje DNA.',
+                'answer': 'Planinski dom na Zelenici',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Fagocitoza.',
+                'answer': 'Prešernova koča na Stolu',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Sinteza polisaharidov.',
+                'answer': 'Češka koča na Spodnjih Ravneh',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Kaj je endosom?',
+        'question': '',
+        'image': 'koce/kranjska-koca.jpg',
         'answers': [
             {
-                'answer': 'Je znotrajcelična cevasta membranska struktura, ki se oblikuje iz celične membrane in je vključena v transport snovi iz celice.',
+                'answer': 'Gomiščkovo zavetišče na Krnu',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Je zunajcelična cevasta membranska struktura, ki se oblikuje iz celične membrane in je vključena v transport snovi v celici.',
+                'answer': 'Prešernova koča na Stolu',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Je znotrajcelična cevasta membranska struktura, ki se oblikuje iz celične stene in je vključena v transport snovi v celici.',
+                'answer': 'Češka koča na Spodnjih Ravneh',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Je znotrajcelična cevasta membranska struktura, ki se oblikuje iz celične membrane in je vključena v transport snovi v celici.',
+                'answer': 'Kranjska koča na Ledinah',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Kaj je endocitoza?',
+        'question': '',
+        'image': 'koce/kamnisko-sedlo.jpg',
         'answers': [
             {
-                'answer': 'Izvoz snovi prek celične membrane ven iz celice.',
+                'answer': 'Prešernova koča na Stolu',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Vnos snovi prek celične membrane v notranjost celice.',
+                'answer': 'Kamniška koča na Kamniškem sedlu',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Zlitje sekrecijskega mešička s plazemsko membrano, s čimer vsebina mešička zapusti celico.',
+                'answer': 'Koča na Travniku',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Razlitje sekrecijskega mešička v notranjosti celice, s čimer celica dobi pomembne snovi za svojo rast.',
+                'answer': 'Roblekov dom na Begunjščici',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kaj ni endocitotska pot?',
+        'question': '',
+        'image': 'koce/koca-na-zelenici.jpg',
         'answers': [
             {
-                'answer': 'Pot lipidnih raftov.',
+                'answer': 'Koča na Planini pri Jezeru',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Fagocitoza.',
+                'answer': 'Blejska koča na Lipanci',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Fotocitoza.',
+                'answer': 'Planinski dom na Zelenici',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Pinocitoza.',
+                'answer': 'Domžalski dom na Mali planini',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kaj je naloga ribosomov?',
+        'question': '',
+        'image': 'koce/roblek.jpg',
         'answers': [
             {
-                'answer': 'Pospeševanje in regulacija tvorbe proteinov.',
+                'answer': 'Roblekov dom na Begunjščici',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Pospeševanje in regulacija tvorbe lipidov.',
+                'answer': 'Planinski dom na Zelenici',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Prenašanje genov.',
+                'answer': 'Planinski dom pri Krnskih jezerih',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Nimajo funkcije.',
+                'answer': 'Koča na Planini pri Jezeru',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Iz česa so sestavljeni ribosomi?',
+        'question': '',
+        'image': 'koce/travnik.jpg',
         'answers': [
             {
-                'answer': 'Iz ribosomskih proteinov.',
+                'answer': 'Blejska koča na Lipanci',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Iz rRNA.',
+                'answer': 'Planinska koča na Dobrči',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Iz rRNA in ribosomskih proteinov.',
+                'answer': 'Koča na Travniku',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Iz mRNA.',
+                'answer': 'Planinski dom na Zelenici',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Česa prokariontska celica nima?',
+        'question': '',
+        'image': 'koce/dobrca.jpg',
         'answers': [
             {
-                'answer': 'Citoplazme.',
+                'answer': 'Tončkov dom na Lisci',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Jedra.',
+                'answer': 'Planinski dom na Dobrči',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Ribosomov.',
+                'answer': 'Koča na Blegošu',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Celične membrane.',
+                'answer': 'Koča na Golici',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kje v celici NE poteka celično dihanje?',
+        'question': '',
+        'image': 'koce/ticar.jpg',
         'answers': [
             {
-                'answer': 'V Golgijevem aparatu.',
+                'answer': 'Tičarjev dom na Vršiču',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'V citosolu.',
+                'answer': 'Aljažev dom v Vratih',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'V citoplazmi.',
+                'answer': 'Koča pri Savici',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'V mitohondriju.',
+                'answer': 'Valvasorjev dom pod Stolom',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kako se deduje mitohondrijska DNA pri človeku?',
+        'question': '',
+        'image': 'koce/krn.jpg',
         'answers': [
             {
-                'answer': 'Po starih starših.',
+                'answer': 'Zasavska koča na Prehodavcih',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Po obeh starših.',
+                'answer': 'Prešernova koča na Stolu',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Po očetu.',
+                'answer': 'Zavetišče pod Špičkom',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Po mami.',
+                'answer': 'Gomiščkovo zavetišče pod Krnom',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Kdo so predniki današnjega mitohondrija?',
+        'question': '',
+        'image': 'koce/krnsko-jezero.jpg',
         'answers': [
             {
-                'answer': 'Glive.',
+                'answer': 'Tičarjev dom na Vršič',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Virusi.',
+                'answer': 'Vojkova koča na Nanosu',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Alge.',
+                'answer': 'Koča na Planini pri Jezeru',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Bakterije.',
+                'answer': 'Planinski dom pri Krnskih jezerih',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }

@@ -443,7 +443,7 @@ const quizQuestions = [
     },
     {
         'question': '',
-        'image': 'eu-countries-shape/bosna-in-herzegovina.jpg',
+        'image': 'eu-countries-shape/bosna-in-hercegovina.jpg',
         'answers': [
             {
                 'answer': 'Albanija',

@@ -3,7 +3,7 @@
     <div class="quiz-question__question">
       <div class="quiz-question__question__shape"></div>
       <div class="quiz-question__question__wrapper">
-        <img  v-if="image" :src="`/static/img/${image}`" alt="Brez namigov ;)" width="200px" />
+        <img class="quiz-question__question__wrapper__image" v-if="image" :src="`/static/img/${image}`" alt="Brez namigov ;)" />
         <div class="quiz-question__question__wrapper__text">
           {{ question }}
         </div>
@@ -108,6 +108,11 @@ export default {
       background-image: url(/static/img/questionmark.png);
       background-repeat: no-repeat;
       background-position: 100% 100%;
+
+      &__image {
+        width: 100%;
+        max-width: 400px;
+      }
     }
   }
 

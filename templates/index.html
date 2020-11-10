@@ -12,10 +12,10 @@
 
 {% block content %}
     <div class="title">
-        Biološki kvizi
+        Kvizi o Sloveniji
     </div>
     <div class="quiz-cards">
-        {% for quizCard in biologyQuizCards %}
+        {% for quizCard in slovenianQuizCards %}
             <div class="quiz-card" onclick="window.location.href = '{{ quizCard["location"] }}'">
                 <div class="quiz-card__image">
                     <img src="{{  quizCard["image"] }}" />
@@ -33,6 +33,23 @@
     </div>
     <div class="quiz-cards">
         {% for quizCard in geographyQuizCards %}
+            <div class="quiz-card" onclick="window.location.href = '{{ quizCard["location"] }}'">
+                <div class="quiz-card__image">
+                    <img src="{{  quizCard["image"] }}" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        {{ quizCard["title"] }}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="title">
+        Biološki kvizi
+    </div>
+    <div class="quiz-cards">
+        {% for quizCard in biologyQuizCards %}
             <div class="quiz-card" onclick="window.location.href = '{{ quizCard["location"] }}'">
                 <div class="quiz-card__image">
                     <img src="{{  quizCard["image"] }}" />

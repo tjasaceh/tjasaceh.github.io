@@ -1,751 +1,776 @@
 const quizQuestions = [
     {
-        'question': 'Kaj je celica?',
+        'question': 'Triglav',
         'answers': [
             {
-                'answer': 'Celica je strukturna in funkcionalna enota vseh rastlin.',
+                'answer': '3864 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Celica je strukturna in funkcionalna enota vseh živih organizmov razen bakterij.',
+                'answer': '2862 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Celica je strukturna in funkcionalna enota vseh živali.',
+                'answer': '2865 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Celica je strukturna in funkcionalna enota vseh živih organizmov.',
+                'answer': '2864 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Iz koliko celic so sestavljeni enoceličarji?',
+        'question': 'Škrlatica',
         'answers': [
             {
-                'answer': 'Iz nešteto celic.',
+                'answer': '2725 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Iz več tisoč.',
+                'answer': '2864 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Iz dveh celic.',
+                'answer': '2840 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Iz ene celice.',
+                'answer': '2740 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Iz približno koliko celic so sestavljeni mnogoceličarji?',
+        'question': 'Mali Triglav',
         'answers': [
             {
-                'answer': 'Iz 1 miljarde celic.',
+                'answer': '2864 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Iz 100 biljonov celic.',
+                'answer': '2725 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Iz več 100 celic.',
+                'answer': '2740 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Iz 1 celice.',
+                'answer': '2860 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kateri znanstvenik je prvi odkril in poimenoval celico?',
+        'question': 'Mangart',
         'answers': [
             {
-                'answer': 'Antonie van Leeuwenhoek.',
+                'answer': '2679 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Louis Pasteur.',
+                'answer': '2579 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Robert Hooke.',
+                'answer': '2679 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Charles Darwin.',
+                'answer': '2725 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Katera panoga biologije se ukvarja s celicami?',
+        'question': 'Visoki Rokav',
         'answers': [
             {
-                'answer': 'Celična biologija.',
+                'answer': '2646 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Celična anatomija.',
+                'answer': '2645 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Botanika.',
+                'answer': '2679 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Mikrobiologija.',
+                'answer': '2725 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Izberi največjo celico.',
+        'question': 'Jalovec',
         'answers': [
             {
-                'answer': 'Virusna celica.',
+                'answer': '2601 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Bakterijska celica.',
+                'answer': '2740 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Rastlinska celica.',
+                'answer': '2645 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Živalska celica.',
+                'answer': '2646 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kaj najdemo tudi v živalski celici?',
+        'question': 'Veliki Oltar',
         'answers': [
             {
-                'answer': 'Vakuolo.',
+                'answer': '2679 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Celično membrano.',
+                'answer': '2621 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Celično steno.',
+                'answer': '2601 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Kloroplaste.',
+                'answer': '2640 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kaj najdemo na zrnatem endoplazmatskem retikulumu?',
+        'question': 'Razor',
         'answers': [
             {
-                'answer': 'Ribosome.',
+                'answer': '2601 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Lizosome.',
+                'answer': '2568 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Vakuolo.',
+                'answer': '2645 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Mitohondrij.',
+                'answer': '2679 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kaj poteka na ribosomih?',
+        'question': 'Kanjevec',
         'answers': [
             {
-                'answer': 'Fotosinteza.',
+                'answer': '2645 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Podvojevanje DNA.',
+                'answer': '2589 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Sinteza maščob.',
+                'answer': '2558 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Sinteza beljakovin.',
+                'answer': '2569 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Kaj najdemo v lizosomih?',
+        'question': 'Grintovec',
         'answers': [
             {
-                'answer': 'Citoplazmo.',
+                'answer': '2645 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Maščobe.',
+                'answer': '2621 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Ribosome.',
+                'answer': '2547 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Prebavne encime.',
+                'answer': '2558 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Kateri organel ima lastno DNA?',
+        'question': 'Stol',
         'answers': [
             {
-                'answer': 'Ribosom.',
+                'answer': '2243 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Mitohondrij.',
+                'answer': '2236 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Vakuola.',
+                'answer': '2336 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Golgijev aparat.',
+                'answer': '2112 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kaj je naloga mitohondrijev?',
+        'question': 'Toplar',
         'answers': [
             {
-                'answer': 'Celično dihanje.',
+                'answer': '2000 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Fotosinteza.',
+                'answer': '2001 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Podvojevanje DNA.',
+                'answer': '2003 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Celična delitev.',
+                'answer': '1999 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kako imenujemo gube notranje membrane kloroplasta?',
+        'question': 'Blegoš',
         'answers': [
             {
-                'answer': 'Kloroplastne gube.',
+                'answer': '1672 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Tilakoide.',
+                'answer': '1562 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Tonoplast.',
+                'answer': '1463 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Endoplazmatski retikulum.',
+                'answer': '1330 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kaj rastline kopičijo v vakuoli?',
+        'question': 'Boč',
         'answers': [
             {
-                'answer': 'Snovi za rast in razvoj.',
+                'answer': '817 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Odpadne produkte.',
+                'answer': '980 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Molekule ATP.',
+                'answer': '1121 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'DNA.',
+                'answer': '986 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'V jedru celice je dedni zapis v obliki tankih nitk',
+        'question': 'Črna prst',
         'answers': [
             {
-                'answer': 'intermediarnih filamentov.',
+                'answer': '1026 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'mikrofilamentov.',
+                'answer': '1798 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'mikrotubulov.',
+                'answer': '1944 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'kromatina.',
+                'answer': '1844 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Kaj nastaja v jedrcu?',
+        'question': 'Babji zob',
         'answers': [
             {
-                'answer': 'Ribosomi.',
+                'answer': '1128 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'ATP.',
+                'answer': '980 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Kromatin.',
+                'answer': '1026 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Mikrotubuli.',
+                'answer': '1255 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kaj je naloga mikrotubulov?',
+        'question': 'Dobrča',
         'answers': [
             {
-                'answer': 'Celična delitev.',
+                'answer': '1977 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Transport snovi znotraj celice.',
+                'answer': '1480 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Transport snovi znotraj celice in sodelovanje pri celični delitvi.',
+                'answer': '1634 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Krčenje mišic in sodelovanje pri celični delitvi.',
+                'answer': '1766 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Dopolni stavek. Mikrofilamenti so sestavljeni iz beljakovine ___ in so pomembni pri ___ .',
+        'question': 'Kum',
         'answers': [
             {
-                'answer': 'aktin, celični delitvi',
+                'answer': '1048 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'tubulin, transportu snovi znotraj celice',
+                'answer': '1121 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'tubulin, celični delitvi',
+                'answer': '1401 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'aktin, krčenju mišic',
+                'answer': '1219 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Kaj je glavna naloga endoplazmatskega retikuluma?',
+        'question': 'Lubnik',
         'answers': [
             {
-                'answer': 'Sinteza proteinov.',
+                'answer': '1048 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Podvojevanje DNA.',
+                'answer': '1447 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Zorjenje in usmerjanje proteinov.',
+                'answer': '1024 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Obdelava in razvrščanje proteinov in lipidov za transport v druge organele ter sinteza glikoproteinov.',
+                'answer': '1121 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kaj je glavna naloga Golgijevega aparata?',
+        'question': 'Nanos',
         'answers': [
             {
-                'answer': 'Sinteza proteinov.',
+                'answer': '1119 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Podvojevanje DNA.',
+                'answer': '1305 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Zorjenje in usmerjanje proteinov.',
+                'answer': '1024 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Obdelava in razvrščanje proteinov in lipidov za transport v druge organele ter sinteza glikoproteinov.',
+                'answer': '1261 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Kaj poleg sinteze glikoproteinov in usmerjanja proteinov v druge organele še poteka v Golgijevem aparatu?',
+        'question': 'Rodica',
         'answers': [
             {
-                'answer': 'Sinteza proteinov.',
+                'answer': '2145 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Podvojevanje DNA.',
+                'answer': '2003 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Fagocitoza.',
+                'answer': '1866 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Sinteza polisaharidov.',
+                'answer': '1966 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Kaj je endosom?',
+        'question': 'Vogel',
         'answers': [
             {
-                'answer': 'Je znotrajcelična cevasta membranska struktura, ki se oblikuje iz celične membrane in je vključena v transport snovi iz celice.',
+                'answer': '1241 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Je zunajcelična cevasta membranska struktura, ki se oblikuje iz celične membrane in je vključena v transport snovi v celici.',
+                'answer': '1932 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Je znotrajcelična cevasta membranska struktura, ki se oblikuje iz celične stene in je vključena v transport snovi v celici.',
+                'answer': '1830 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Je znotrajcelična cevasta membranska struktura, ki se oblikuje iz celične membrane in je vključena v transport snovi v celici.',
+                'answer': '1923 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Kaj je endocitoza?',
+        'question': 'Šmarna gora',
         'answers': [
             {
-                'answer': 'Izvoz snovi prek celične membrane ven iz celice.',
+                'answer': '705 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Vnos snovi prek celične membrane v notranjost celice.',
+                'answer': '669 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Zlitje sekrecijskega mešička s plazemsko membrano, s čimer vsebina mešička zapusti celico.',
+                'answer': '598 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Razlitje sekrecijskega mešička v notranjosti celice, s čimer celica dobi pomembne snovi za svojo rast.',
+                'answer': '609 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kaj ni endocitotska pot?',
+        'question': 'Sveti Jošt nad Kranjem',
         'answers': [
             {
-                'answer': 'Pot lipidnih raftov.',
+                'answer': '669 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Fagocitoza.',
+                'answer': '742 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Fotocitoza.',
+                'answer': '845 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Pinocitoza.',
+                'answer': '806 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kaj je naloga ribosomov?',
+        'question': 'Slivnica',
         'answers': [
             {
-                'answer': 'Pospeševanje in regulacija tvorbe proteinov.',
+                'answer': '1114 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Pospeševanje in regulacija tvorbe lipidov.',
+                'answer': '1146 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Prenašanje genov.',
+                'answer': '1106 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Nimajo funkcije.',
+                'answer': '1056 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Iz česa so sestavljeni ribosomi?',
+        'question': 'Porezen',
         'answers': [
             {
-                'answer': 'Iz ribosomskih proteinov.',
+                'answer': '1765',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Iz rRNA.',
+                'answer': '1655 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Iz rRNA in ribosomskih proteinov.',
+                'answer': '1632 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Iz mRNA.',
+                'answer': '1732 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Česa prokariontska celica nima?',
+        'question': 'Krvavec',
         'answers': [
             {
-                'answer': 'Citoplazme.',
+                'answer': '1756 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Jedra.',
+                'answer': '1853 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'Ribosomov.',
+                'answer': '1953 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Celične membrane.',
+                'answer': '1803 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kje v celici NE poteka celično dihanje?',
+        'question': 'Krim',
         'answers': [
             {
-                'answer': 'V Golgijevem aparatu.',
+                'answer': '1107 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             },
             {
-                'answer': 'V citosolu.',
+                'answer': '989 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'V citoplazmi.',
+                'answer': '1153 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'V mitohondriju.',
+                'answer': '1207 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             }
         ],
     },
     {
-        'question': 'Kako se deduje mitohondrijska DNA pri človeku?',
+        'question': 'Donačka gora',
         'answers': [
             {
-                'answer': 'Po starih starših.',
+                'answer': '783 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Po obeh starših.',
+                'answer': '1102 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Po očetu.',
+                'answer': '983 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Po mami.',
+                'answer': '883 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
             }
         ],
     },
     {
-        'question': 'Kdo so predniki današnjega mitohondrija?',
+        'question': 'Velika planina',
         'answers': [
             {
-                'answer': 'Glive.',
+                'answer': '1555 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Virusi.',
+                'answer': '1703 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Alge.',
+                'answer': '1699 m',
                 'isBacteriaName': false,
                 'isCorrect': false,
             },
             {
-                'answer': 'Bakterije.',
+                'answer': '1666 m',
                 'isBacteriaName': false,
                 'isCorrect': true,
+            }
+        ],
+    },
+    {
+        'question': 'Kamniško sedlo',
+        'answers': [
+            {
+                'answer': '1999 m',
+                'isBacteriaName': false,
+                'isCorrect': false,
+            },
+            {
+                'answer': '1803',
+                'isBacteriaName': false,
+                'isCorrect': false,
+            },
+            {
+                'answer': '1903 m',
+                'isBacteriaName': false,
+                'isCorrect': true,
+            },
+            {
+                'answer': '1989 m',
+                'isBacteriaName': false,
+                'isCorrect': false,
             }
         ],
     },
