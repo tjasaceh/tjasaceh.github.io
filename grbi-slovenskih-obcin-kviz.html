@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+        <script data-ad-client="ca-pub-7147013737745030" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5E3YN8C3KJ"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-5E3YN8C3KJ');
+        </script>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Grb je simbol mesta, države, društva ali občine. Je simbol, ki izhaja že iz časov srednjega veka. Vitezi so si namreč pobarvali svoje ščite, da so dosegli večjo prepoznavnost. Danes grbe občin največkrat opazimo na registrskih tablicah. V zgornjem kvizu preveri, kako dobro poznaš grbe slovenskih občin.">
+
+    <title>Grbi slovenskih občin - kvizi.net</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/common.css">
+    
+    <link rel="stylesheet" href="/static/css/quiz.css">
+
+</head>
+<body>
+    <div class="content-wrapper">
+        <div class="content-wrapper__content">
+            <header>
+                <a href="/">
+                    <div class="header__logo">
+                        <img src="/static/img/owl.png" alt="kvizi.net logo" width="64px" />
+                        <div class="header__logo__name">kvizi.net</div>
+                    </div>
+                </a>
+                <div class="header__navigation">
+                    <div class="header__navigation__link">
+                        <a href="/o-strani.html">O strani</a>
+                    </div>
+                </div>
+            </header>
+            
+    <div class="title">Grbi slovenskih občin</div>
+    <div id="app"></div>
+    <div class="small-title">
+        Opis
+    </div>
+    <div class="description justify">
+        Grb je simbol mesta, države, društva ali občine. Je simbol, ki izhaja že iz časov srednjega veka. Vitezi so si namreč pobarvali svoje ščite, da so dosegli večjo prepoznavnost. Danes grbe občin največkrat opazimo na registrskih tablicah. V zgornjem kvizu preveri, kako dobro poznaš grbe slovenskih občin.
+    </div>
+    <script src="https://unpkg.com/vue@2.6.11/dist/vue.min.js"></script>
+    <script src="/static/js/quiz-app/QuizApp.umd.min.js"></script>
+    <script src="/static/js/common.js"></script>
+    <script src="/static/js/questions-grbi.js"></script>
+    <script>
+        const title = 'Grbi slovenskih občin'
+        shuffle(quizQuestions)
+        new Vue({
+            render: h => h(QuizApp, {
+                props: {
+                    title: title,
+                    questionsPool: quizQuestions,
+                },
+            }),
+        }).$mount('#app')
+    </script>
+
+        </div>
+    </div>
+</body>
+</html>

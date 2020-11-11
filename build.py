@@ -70,6 +70,11 @@ templates = [
                     'location': 'slovenske-planinske-koce-kviz.html',
                     'image': '/static/img/koca.jpg',
                     'title': 'Slovenske planinske koče'
+                },
+                {
+                    'location': 'grbi-slovenskih-obcin-kviz.html',
+                    'image': '/static/img/grb.jpg',
+                    'title': 'Grbi slovenskih občin'
                 }
             ],
         }
@@ -176,6 +181,15 @@ templates = [
             'title': 'Slovenske planinske koče',
             'questionsPath': '/static/js/questions-koce.js',
             'description': 'Planinska koča je varno zatočišče pred nevihto v gorah in prostor, kjer se lahko po dolgi poti sprostimo in okrepčamo. Planinci radi izbiramo pohodniške cilje, ki imajo na poti tudi planinsko kočo. Preveri kako dobro poznaš slovenske planinske koče in morda dobiš navdih za naslednji planinski izlet.',
+        }
+    },
+    {
+        'path': 'quiz.html',
+        'outputPath': 'grbi-slovenskih-obcin-kviz.html',
+        'data': {
+            'title': 'Grbi slovenskih občin',
+            'questionsPath': '/static/js/questions-grbi.js',
+            'description': 'Grb je simbol mesta, države, društva ali občine. Je simbol, ki izhaja že iz časov srednjega veka. Vitezi so si namreč pobarvali svoje ščite, da so dosegli večjo prepoznavnost. Danes grbe občin največkrat opazimo na registrskih tablicah. V zgornjem kvizu preveri, kako dobro poznaš grbe slovenskih občin.',
         }
     },
 ]
