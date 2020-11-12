@@ -111,7 +111,7 @@ export default {
 
       &__image {
         width: 100%;
-        max-width: 400px;
+        max-width: 300px;
       }
     }
   }

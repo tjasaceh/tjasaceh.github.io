@@ -7,76 +7,25 @@
 {% endblock %}
 
 {% block extracss %}
-    <link rel="stylesheet" href="/static/css/index.css">
+    <link rel="stylesheet" href="/static/css/quiz-cards.css">
 {% endblock %}
 
 {% block content %}
-    <div class="title">
-        Kvizi o Sloveniji
-    </div>
-    <div class="quiz-cards">
-        {% for quizCard in slovenianQuizCards %}
-            <div class="quiz-card" onclick="window.location.href = '{{ quizCard["location"] }}'">
-                <div class="quiz-card__image">
-                    <img src="{{  quizCard["image"] }}" />
-                </div>
-                <div class="quiz-card__metadata">
-                    <div class="quiz-card__metadata__title">
-                        {{ quizCard["title"] }}
+    {% for quizSection in quizSections %}
+        <div class="title">{{ quizSection["title"] }}</div>
+        <div class="quiz-cards">
+            {% for quizCard in quizSection["quizCards"] %}
+                <div class="quiz-card" onclick="window.location.href = '/{{ quizCard["path"] }}'">
+                    <div class="quiz-card__image">
+                        <img src="{{  quizCard["image"] }}" />
+                    </div>
+                    <div class="quiz-card__metadata">
+                        <div class="quiz-card__metadata__title">
+                            {{ quizCard["title"] }}
+                        </div>
                     </div>
                 </div>
-            </div>
-        {% endfor %}
-    </div>
-    <div class="title">
-        Geografski kvizi
-    </div>
-    <div class="quiz-cards">
-        {% for quizCard in geographyQuizCards %}
-            <div class="quiz-card" onclick="window.location.href = '{{ quizCard["location"] }}'">
-                <div class="quiz-card__image">
-                    <img src="{{  quizCard["image"] }}" />
-                </div>
-                <div class="quiz-card__metadata">
-                    <div class="quiz-card__metadata__title">
-                        {{ quizCard["title"] }}
-                    </div>
-                </div>
-            </div>
-        {% endfor %}
-    </div>
-    <div class="title">
-        Biološki kvizi
-    </div>
-    <div class="quiz-cards">
-        {% for quizCard in biologyQuizCards %}
-            <div class="quiz-card" onclick="window.location.href = '{{ quizCard["location"] }}'">
-                <div class="quiz-card__image">
-                    <img src="{{  quizCard["image"] }}" />
-                </div>
-                <div class="quiz-card__metadata">
-                    <div class="quiz-card__metadata__title">
-                        {{ quizCard["title"] }}
-                    </div>
-                </div>
-            </div>
-        {% endfor %}
-    </div>
-    <div class="title">
-        Kvizi o književnosti
-    </div>
-    <div class="quiz-cards">
-        {% for quizCard in literatureQuizCards %}
-            <div class="quiz-card" onclick="window.location.href = '{{ quizCard["location"] }}'">
-                <div class="quiz-card__image">
-                    <img src="{{  quizCard["image"] }}" />
-                </div>
-                <div class="quiz-card__metadata">
-                    <div class="quiz-card__metadata__title">
-                        {{ quizCard["title"] }}
-                    </div>
-                </div>
-            </div>
-        {% endfor %}
-    </div>
+            {% endfor %}
+        </div>
+    {% endfor %}
 {% endblock %}

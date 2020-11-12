@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="/static/css/common.css">
     
     <link rel="stylesheet" href="/static/css/quiz.css">
+    <link rel="stylesheet" href="/static/css/quiz-cards.css">
 
 </head>
 <body>
@@ -48,6 +49,34 @@
     </div>
     <div class="description justify">
         Nadmorska višina je višina nekega kraja nad gladino morja. Vsak vrh ima izmerjeno svojo nadmorsko višino, zato v kvizu preveri, kako dobro si si zapomnil nadmorsko višino zadnjega osvojenega vrha.
+    </div>
+    <div class="small-title">
+        Podobni kvizi
+    </div>
+    <div class="quiz-cards">
+        
+            <div class="quiz-card" onclick="window.location.href = '/slovenske-planinske-koce-kviz.html'">
+                <div class="quiz-card__image">
+                    <img src="/static/img/koca.jpg" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        Slovenske planinske koče
+                    </div>
+                </div>
+            </div>
+        
+            <div class="quiz-card" onclick="window.location.href = '/grbi-slovenskih-obcin-kviz.html'">
+                <div class="quiz-card__image">
+                    <img src="/static/img/grb.jpg" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        Grbi slovenskih občin
+                    </div>
+                </div>
+            </div>
+        
     </div>
     <script src="https://unpkg.com/vue@2.6.11/dist/vue.min.js"></script>
     <script src="/static/js/quiz-app/QuizApp.umd.min.js"></script>

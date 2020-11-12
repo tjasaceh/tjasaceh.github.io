@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="/static/css/common.css">
     
     <link rel="stylesheet" href="/static/css/quiz.css">
+    <link rel="stylesheet" href="/static/css/quiz-cards.css">
 
 </head>
 <body>
@@ -48,6 +49,34 @@
     </div>
     <div class="description justify">
         Zastava je simbol države, ki v prebivalcih vzbuja pripadnost državi ob najrazličnejših dogodkih tako ob proslavah v domovini kot v tujini. Vsaka zastava nam pripoveduje svojo zgodbo in predstavlja barve države. Odkrij katera zastava pripada kateri državi!
+    </div>
+    <div class="small-title">
+        Podobni kvizi
+    </div>
+    <div class="quiz-cards">
+        
+            <div class="quiz-card" onclick="window.location.href = '/prestolnice-kviz.html'">
+                <div class="quiz-card__image">
+                    <img src="/static/img/capitals.jpg" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        Prestolnice
+                    </div>
+                </div>
+            </div>
+        
+            <div class="quiz-card" onclick="window.location.href = '/oblike-evropskih-drzav-kviz.html'">
+                <div class="quiz-card__image">
+                    <img src="/static/img/europe-countries.jpg" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        Oblike evropskih držav
+                    </div>
+                </div>
+            </div>
+        
     </div>
     <script src="https://unpkg.com/vue@2.6.11/dist/vue.min.js"></script>
     <script src="/static/js/quiz-app/QuizApp.umd.min.js"></script>

@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="/static/css/common.css">
     
     <link rel="stylesheet" href="/static/css/quiz.css">
+    <link rel="stylesheet" href="/static/css/quiz-cards.css">
 
 </head>
 <body>
@@ -48,6 +49,23 @@
     </div>
     <div class="description justify">
         Preveri svoje znanje iz svetovne in slovenske književnosti.
+    </div>
+    <div class="small-title">
+        Podobni kvizi
+    </div>
+    <div class="quiz-cards">
+        
+            <div class="quiz-card" onclick="window.location.href = '/slovenska-lirika-kviz.html'">
+                <div class="quiz-card__image">
+                    <img src="/static/img/preseren.jpg" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        Slovenska lirika
+                    </div>
+                </div>
+            </div>
+        
     </div>
     <script src="https://unpkg.com/vue@2.6.11/dist/vue.min.js"></script>
     <script src="/static/js/quiz-app/QuizApp.umd.min.js"></script>

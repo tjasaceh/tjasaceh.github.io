@@ -17,11 +17,12 @@
     
     <meta name="description" content="Celica je osnovna gradbena in funkcionalna enota vseh živih organizmov. Lahko jo imenujemo kar "gradbeni element življenja". Preveri kako je zgrajena celica in kako to vpliva na življenje živih bitij!">
 
-    <title>Genetika - kvizi.net</title>
+    <title>Celica - kvizi.net</title>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/css/common.css">
     
     <link rel="stylesheet" href="/static/css/quiz.css">
+    <link rel="stylesheet" href="/static/css/quiz-cards.css">
 
 </head>
 <body>
@@ -41,7 +42,7 @@
                 </div>
             </header>
             
-    <div class="title">Genetika</div>
+    <div class="title">Celica</div>
     <div id="app"></div>
     <div class="small-title">
         Opis
@@ -49,12 +50,62 @@
     <div class="description justify">
         Celica je osnovna gradbena in funkcionalna enota vseh živih organizmov. Lahko jo imenujemo kar "gradbeni element življenja". Preveri kako je zgrajena celica in kako to vpliva na življenje živih bitij!
     </div>
+    <div class="small-title">
+        Podobni kvizi
+    </div>
+    <div class="quiz-cards">
+        
+            <div class="quiz-card" onclick="window.location.href = '/sesalci-kviz.html'">
+                <div class="quiz-card__image">
+                    <img src="/static/img/cat.jpg" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        Sesalci
+                    </div>
+                </div>
+            </div>
+        
+            <div class="quiz-card" onclick="window.location.href = '/clovesko-telo-kviz.html'">
+                <div class="quiz-card__image">
+                    <img src="/static/img/body.jpg" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        Človeško telo
+                    </div>
+                </div>
+            </div>
+        
+            <div class="quiz-card" onclick="window.location.href = '/fotosinteza-rastline-kviz.html'">
+                <div class="quiz-card__image">
+                    <img src="/static/img/flower.jpg" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        Fotosinteza in rastline
+                    </div>
+                </div>
+            </div>
+        
+            <div class="quiz-card" onclick="window.location.href = '/genetika-kviz.html'">
+                <div class="quiz-card__image">
+                    <img src="/static/img/genetics.jpg" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        Genetika
+                    </div>
+                </div>
+            </div>
+        
+    </div>
     <script src="https://unpkg.com/vue@2.6.11/dist/vue.min.js"></script>
     <script src="/static/js/quiz-app/QuizApp.umd.min.js"></script>
     <script src="/static/js/common.js"></script>
     <script src="/static/js/questions-celica.js"></script>
     <script>
-        const title = 'Genetika'
+        const title = 'Celica'
         shuffle(quizQuestions)
         new Vue({
             render: h => h(QuizApp, {

@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="/static/css/common.css">
     
     <link rel="stylesheet" href="/static/css/quiz.css">
+    <link rel="stylesheet" href="/static/css/quiz-cards.css">
 
 </head>
 <body>
@@ -48,6 +49,56 @@
     </div>
     <div class="description justify">
         Kako dobro poznaš svoje telo? Človeško telo je zelo zapleten sistem med sabo povezanih delov in procesov, ki sestavljajo popolno celoto. Preveri svoje znanje s področja človeške biologije!
+    </div>
+    <div class="small-title">
+        Podobni kvizi
+    </div>
+    <div class="quiz-cards">
+        
+            <div class="quiz-card" onclick="window.location.href = '/sesalci-kviz.html'">
+                <div class="quiz-card__image">
+                    <img src="/static/img/cat.jpg" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        Sesalci
+                    </div>
+                </div>
+            </div>
+        
+            <div class="quiz-card" onclick="window.location.href = '/fotosinteza-rastline-kviz.html'">
+                <div class="quiz-card__image">
+                    <img src="/static/img/flower.jpg" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        Fotosinteza in rastline
+                    </div>
+                </div>
+            </div>
+        
+            <div class="quiz-card" onclick="window.location.href = '/genetika-kviz.html'">
+                <div class="quiz-card__image">
+                    <img src="/static/img/genetics.jpg" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        Genetika
+                    </div>
+                </div>
+            </div>
+        
+            <div class="quiz-card" onclick="window.location.href = '/celica-kviz.html'">
+                <div class="quiz-card__image">
+                    <img src="/static/img/cell.jpg" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        Celica
+                    </div>
+                </div>
+            </div>
+        
     </div>
     <script src="https://unpkg.com/vue@2.6.11/dist/vue.min.js"></script>
     <script src="/static/js/quiz-app/QuizApp.umd.min.js"></script>
