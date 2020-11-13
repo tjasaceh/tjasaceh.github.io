@@ -111,7 +111,7 @@ quizzes = {
         'title': 'Višine slovenskih gora',
         'questionsPath': '/static/js/questions-visine.js',
         'description': 'Nadmorska višina je višina nekega kraja nad gladino morja. Vsak vrh ima izmerjeno svojo nadmorsko višino, zato v kvizu preveri, kako dobro si si zapomnil nadmorsko višino zadnjega osvojenega vrha.',
-        'relatedQuizzes': ['slovenske-planinske-koce', 'grbi-slovenskih-obcin'],
+        'relatedQuizzes': ['slovenske-planinske-koce', 'grbi-slovenskih-obcin', 'vse-o-sloveniji'],
     },
     'slovenske-planinske-koce': {
         'path': 'slovenske-planinske-koce-kviz.html',
@@ -119,7 +119,7 @@ quizzes = {
         'title': 'Slovenske planinske koče',
         'questionsPath': '/static/js/questions-koce.js',
         'description': 'Planinska koča je varno zatočišče pred nevihto v gorah in prostor, kjer se lahko po dolgi poti sprostimo in okrepčamo. Planinci radi izbiramo pohodniške cilje, ki imajo na poti tudi planinsko kočo. Preveri kako dobro poznaš slovenske planinske koče in morda dobiš navdih za naslednji planinski izlet.',
-        'relatedQuizzes': ['visine-slovenskih-gora', 'grbi-slovenskih-obcin'],
+        'relatedQuizzes': ['visine-slovenskih-gora', 'grbi-slovenskih-obcin', 'vse-o-sloveniji'],
     },
     'grbi-slovenskih-obcin': {
         'path': 'grbi-slovenskih-obcin-kviz.html',
@@ -127,8 +127,16 @@ quizzes = {
         'title': 'Grbi slovenskih občin',
         'questionsPath': '/static/js/questions-grbi.js',
         'description': 'Grb je simbol mesta, države, društva ali občine. Je simbol, ki izhaja že iz časov srednjega veka. Vitezi so si namreč pobarvali svoje ščite, da so dosegli večjo prepoznavnost. Danes grbe občin največkrat opazimo na registrskih tablicah. V zgornjem kvizu preveri, kako dobro poznaš grbe slovenskih občin.',
-        'relatedQuizzes': ['visine-slovenskih-gora', 'slovenske-planinske-koce'],
-    }
+        'relatedQuizzes': ['visine-slovenskih-gora', 'slovenske-planinske-koce', 'vse-o-sloveniji'],
+    },
+    'vse-o-sloveniji': {
+        'path': 'vse-o-sloveniji-kviz.html',
+        'image': '/static/img/bled.jpg',
+        'title': 'Vse o Sloveniji',
+        'questionsPath': '/static/js/questions-slovenija.js',
+        'description': 'Slovenija je država v srednji Evropi, ki meji na Italijo, Avstrijo, Madžarsko in Hrvaško. Leži  na stičišču alpskega, sredozemskega, panonskega in dinarskega sveta. Kljub svoji majhnosti je dežela lepih razgledov, dobre hrane in prijaznih ljudi. Preveri kako dobro poznaš svojo deželo v kvizu o Sloveniji.',
+        'relatedQuizzes': ['visine-slovenskih-gora', 'slovenske-planinske-koce', 'grbi-slovenskih-obcin'],
+    },
 }
 
 
@@ -148,7 +156,7 @@ templates = [
         'outputPath': 'index.html',
         'data': {
             'quizSections': [
-                { 'title': 'Kvizi o Sloveniji', 'quizCards': get_quizzes_by_key(['visine-slovenskih-gora', 'slovenske-planinske-koce', 'grbi-slovenskih-obcin']) },
+                { 'title': 'Kvizi o Sloveniji', 'quizCards': get_quizzes_by_key(['vse-o-sloveniji', 'visine-slovenskih-gora', 'slovenske-planinske-koce', 'grbi-slovenskih-obcin']) },
                 { 'title': 'Geografski kvizi', 'quizCards': get_quizzes_by_key(['zastave', 'prestolnice', 'oblike-evropskih-drzav']) },
                 { 'title': 'Biološki kvizi', 'quizCards': get_quizzes_by_key(['sesalci', 'clovesko-telo', 'fotosinteza-rastline', 'genetika', 'celica']) },
                 { 'title': 'Kvizi o književnosti', 'quizCards': get_quizzes_by_key(['splosna-knjizevnost', 'slovenska-lirika']) },
