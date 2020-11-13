@@ -7,10 +7,26 @@
 {% endblock %}
 
 {% block extracss %}
+    <link rel="stylesheet" href="/static/css/index.css">
     <link rel="stylesheet" href="/static/css/quiz-cards.css">
 {% endblock %}
 
 {% block content %}
+    <div class="title">Zanimivi članki</div>
+    <div class="articles-list">
+        {% for article in articles %}
+            <div class="articles-list__article"  onclick="window.location.href = '/{{ article["path"] }}'">
+                <div class="articles-list__article__left">
+                    <img src="{{ article["image"] }}" width="60px" height="60px" />
+                </div>
+                <div class="articles-list__article__right">
+                    <div class="articles-list__article__title">{{ article["title"] }}</div>
+                    <div class="articles-list__article__description">{{ article["date"] }} &middot; {{ article["description"] }}</div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
     {% for quizSection in quizSections %}
         <div class="title">{{ quizSection["title"] }}</div>
         <div class="quiz-cards">

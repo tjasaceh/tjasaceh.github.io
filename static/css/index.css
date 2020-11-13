@@ -1,0 +1,45 @@
+.articles-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.articles-list__article {
+    display: flex;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.articles-list__article:hover {
+    background-color: aliceblue;
+}
+
+.articles-list__article__title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.articles-list__article__description {
+    font-size: 16px;
+}
+
+.articles-list__article__subtitle {
+    font-size: 12px;
+}
+
+.articles-list__article__left img {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+        0 2px 2px rgba(0,0,0,0.12), 
+        0 4px 4px rgba(0,0,0,0.12), 
+        0 8px 8px rgba(0,0,0,0.12),
+        0 16px 16px rgba(0,0,0,0.12);
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.articles-list__article__right {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

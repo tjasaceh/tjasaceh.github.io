@@ -1,8 +1,28 @@
 import sys
 
 from jinja2 import Template, Environment, FileSystemLoader
+import markdown
 
 templates_dir = 'templates'
+
+articles = {
+    'ekstremofil': {
+        'path': 'clanki/kako-postati-ekstremofil.html',
+        'title': 'Kako postati ekstremofil?',
+        'description': 'Ste kdaj razmišljali kako bi preživeli potencialno apokalipso?',
+        'image': '/static/img/clanki/tardigrade.jpg',
+        'date': '13. november 2020',
+        'markdownPath': 'clanki-markdown/kako-postati-ekstremofil.md'
+    },
+    'kloniranje': {
+        'path': 'clanki/kloniranje.html',
+        'title': 'Kloniranje za vsakdan',
+        'description': 'Kloniranje ni nekaj novega, kar se dogaja v laboratorijih. To je nekaj, kar se dogaja v naravi že od nekdaj.',
+        'image': '/static/img/clanki/ovca.jpg',
+        'date': '13. november 2020',
+        'markdownPath': 'clanki-markdown/kloniranje.md'
+    }
+}
 
 quizzes = {
     'sesalci': {
@@ -111,8 +131,16 @@ quizzes = {
     }
 }
 
+
 def get_quizzes_by_key(keys):
     return [quizzes[key] for key in keys]
+
+
+def markdown_to_html(markdown_path):
+    with open(markdown_path, 'r', encoding='utf-8') as f:
+        text = f.read()
+    return markdown.markdown(text)
+
 
 templates = [
     {
@@ -124,6 +152,10 @@ templates = [
                 { 'title': 'Geografski kvizi', 'quizCards': get_quizzes_by_key(['zastave', 'prestolnice', 'oblike-evropskih-drzav']) },
                 { 'title': 'Biološki kvizi', 'quizCards': get_quizzes_by_key(['sesalci', 'clovesko-telo', 'fotosinteza-rastline', 'genetika', 'celica']) },
                 { 'title': 'Kvizi o književnosti', 'quizCards': get_quizzes_by_key(['splosna-knjizevnost', 'slovenska-lirika']) },
+            ],
+            'articles': [
+                articles['ekstremofil'],
+                articles['kloniranje'],
             ]
         }
     },
@@ -141,6 +173,15 @@ templates = [
             'relatedQuizzes': get_quizzes_by_key(quiz['relatedQuizzes'])
         }
     } for quiz in quizzes.values()
+] + [
+    {
+        'path': 'article.html',
+        'outputPath': article['path'],
+        'data': {
+            **article,
+            'html': markdown_to_html(article['markdownPath'])
+        }
+    } for article in articles.values()
 ]
 
 env = Environment(loader=FileSystemLoader(f'{templates_dir}/'))
