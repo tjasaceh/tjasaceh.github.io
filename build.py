@@ -21,6 +21,14 @@ articles = {
         'image': '/static/img/clanki/ovca.jpg',
         'date': '13. november 2020',
         'markdownPath': 'clanki-markdown/kloniranje.md'
+    },
+    'slovenski-drzavni-simboli': {
+        'path': 'clanki/zgodovina-slovenske-zastave.html',
+        'title': 'Zgodovina slovenske zastave',
+        'description': 'Slovenska zastava je bila prvič dvignjena 26.6.1991 na Trgu republike v Ljubljani.',
+        'image': '/static/img/clanki/slovenija-grb.jpg',
+        'date': '18. november 2020',
+        'markdownPath': 'clanki-markdown/slovenski-drzavni-simboli.md'
     }
 }
 
@@ -162,6 +170,7 @@ templates = [
                 { 'title': 'Kvizi o književnosti', 'quizCards': get_quizzes_by_key(['splosna-knjizevnost', 'slovenska-lirika']) },
             ],
             'articles': [
+                articles['slovenski-drzavni-simboli'],
                 articles['ekstremofil'],
                 articles['kloniranje'],
             ]
