@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+        <script data-ad-client="ca-pub-7147013737745030" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5E3YN8C3KJ"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-5E3YN8C3KJ');
+        </script>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Preveri kako dobro poznaš zgodbe iz grške mitologije in se preizkusi v kvizu o grški mitologiji.">
+
+    <title>Grška mitologija - kvizi.net</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/common.css">
+    
+    <link rel="stylesheet" href="/static/css/quiz.css">
+    <link rel="stylesheet" href="/static/css/quiz-cards.css">
+
+</head>
+<body>
+    <div class="content-wrapper">
+        <div class="content-wrapper__content">
+            <header>
+                <a href="/">
+                    <div class="header__logo">
+                        <img src="/static/img/owl.png" alt="kvizi.net logo" width="64px" />
+                        <div class="header__logo__name">kvizi.net</div>
+                    </div>
+                </a>
+                <div class="header__navigation">
+                    <div class="header__navigation__link">
+                        <a href="/o-strani.html">O strani</a>
+                    </div>
+                </div>
+            </header>
+            
+    <div class="title">Grška mitologija</div>
+    <div id="app"></div>
+    <div class="small-title">
+        Opis
+    </div>
+    <div class="description justify">
+        Preveri kako dobro poznaš zgodbe iz grške mitologije in se preizkusi v kvizu o grški mitologiji.
+    </div>
+    <div class="small-title">
+        Podobni kvizi
+    </div>
+    <div class="quiz-cards">
+        
+            <div class="quiz-card" onclick="window.location.href = '/splosna-knjizevnost-kviz.html'">
+                <div class="quiz-card__image">
+                    <img src="/static/img/books.jpg" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        Splošna književnost
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+    <script src="https://unpkg.com/vue@2.6.11/dist/vue.min.js"></script>
+    <script src="/static/js/quiz-app/QuizApp.umd.min.js"></script>
+    <script src="/static/js/common.js"></script>
+    <script src="/static/js/questions-grska-mitologija.js"></script>
+    <script>
+        const title = 'Grška mitologija'
+        shuffle(quizQuestions)
+        new Vue({
+            render: h => h(QuizApp, {
+                props: {
+                    title: title,
+                    questionsPool: quizQuestions,
+                },
+            }),
+        }).$mount('#app')
+    </script>
+
+        </div>
+    </div>
+</body>
+</html>

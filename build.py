@@ -145,6 +145,14 @@ quizzes = {
         'description': 'Slovenija je država v srednji Evropi, ki meji na Italijo, Avstrijo, Madžarsko in Hrvaško. Leži  na stičišču alpskega, sredozemskega, panonskega in dinarskega sveta. Kljub svoji majhnosti je dežela lepih razgledov, dobre hrane in prijaznih ljudi. Preveri kako dobro poznaš svojo deželo v kvizu o Sloveniji.',
         'relatedQuizzes': ['visine-slovenskih-gora', 'slovenske-planinske-koce', 'grbi-slovenskih-obcin'],
     },
+    'grska-mitologija': {
+        'path': 'grska-mitologija-kviz.html',
+        'image': '/static/img/grska-mitologija.jpg',
+        'title': 'Grška mitologija',
+        'questionsPath': '/static/js/questions-grska-mitologija.js',
+        'description': 'Preveri kako dobro poznaš zgodbe iz grške mitologije in se preizkusi v kvizu o grški mitologiji.',
+        'relatedQuizzes': ['splosna-knjizevnost'],
+    },
 }
 
 
@@ -167,7 +175,7 @@ templates = [
                 { 'title': 'Kvizi o Sloveniji', 'quizCards': get_quizzes_by_key(['vse-o-sloveniji', 'visine-slovenskih-gora', 'slovenske-planinske-koce', 'grbi-slovenskih-obcin']) },
                 { 'title': 'Geografski kvizi', 'quizCards': get_quizzes_by_key(['zastave', 'prestolnice', 'oblike-evropskih-drzav']) },
                 { 'title': 'Biološki kvizi', 'quizCards': get_quizzes_by_key(['sesalci', 'clovesko-telo', 'fotosinteza-rastline', 'genetika', 'celica']) },
-                { 'title': 'Kvizi o književnosti', 'quizCards': get_quizzes_by_key(['splosna-knjizevnost', 'slovenska-lirika']) },
+                { 'title': 'Kvizi o književnosti', 'quizCards': get_quizzes_by_key(['splosna-knjizevnost', 'slovenska-lirika', 'grska-mitologija']) },
             ],
             'articles': [
                 articles['slovenski-drzavni-simboli'],
