@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+        <script data-ad-client="ca-pub-7147013737745030" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5E3YN8C3KJ"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-5E3YN8C3KJ');
+        </script>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Zajedavci ali paraziti so živali ali rastline, ki stalno ali občasno živijo na račun drugega organizma (gostitelja). Ljudje se lahko večkrat v življenju srečamo s to nadlogo. Pogosto se zgodi, da človek sploh ne ve, da je okužen. V kvizu o parazitih preveri kakšni se lahko znajdejo v človeškem telesu.">
+
+    <title>Paraziti - kvizi.net</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/common.css">
+    
+    <link rel="stylesheet" href="/static/css/quiz.css">
+    <link rel="stylesheet" href="/static/css/quiz-cards.css">
+
+</head>
+<body>
+    <div class="content-wrapper">
+        <div class="content-wrapper__content">
+            <header>
+                <a href="/">
+                    <div class="header__logo">
+                        <img src="/static/img/owl.png" alt="kvizi.net logo" width="64px" />
+                        <div class="header__logo__name">kvizi.net</div>
+                    </div>
+                </a>
+                <div class="header__navigation">
+                    <div class="header__navigation__link">
+                        <a href="/o-strani.html">O strani</a>
+                    </div>
+                </div>
+            </header>
+            
+    <div class="title">Paraziti</div>
+    <div id="app"></div>
+    <div class="small-title">
+        Opis
+    </div>
+    <div class="description justify">
+        Zajedavci ali paraziti so živali ali rastline, ki stalno ali občasno živijo na račun drugega organizma (gostitelja). Ljudje se lahko večkrat v življenju srečamo s to nadlogo. Pogosto se zgodi, da človek sploh ne ve, da je okužen. V kvizu o parazitih preveri kakšni se lahko znajdejo v človeškem telesu.
+    </div>
+    <div class="small-title">
+        Podobni kvizi
+    </div>
+    <div class="quiz-cards">
+        
+            <div class="quiz-card" onclick="window.location.href = '/sesalci-kviz.html'">
+                <div class="quiz-card__image">
+                    <img src="/static/img/cat.jpg" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        Sesalci
+                    </div>
+                </div>
+            </div>
+        
+            <div class="quiz-card" onclick="window.location.href = '/clovesko-telo-kviz.html'">
+                <div class="quiz-card__image">
+                    <img src="/static/img/body.jpg" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        Človeško telo
+                    </div>
+                </div>
+            </div>
+        
+            <div class="quiz-card" onclick="window.location.href = '/fotosinteza-rastline-kviz.html'">
+                <div class="quiz-card__image">
+                    <img src="/static/img/flower.jpg" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        Fotosinteza in rastline
+                    </div>
+                </div>
+            </div>
+        
+            <div class="quiz-card" onclick="window.location.href = '/celica-kviz.html'">
+                <div class="quiz-card__image">
+                    <img src="/static/img/cell.jpg" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        Celica
+                    </div>
+                </div>
+            </div>
+        
+            <div class="quiz-card" onclick="window.location.href = '/genetika-kviz.html'">
+                <div class="quiz-card__image">
+                    <img src="/static/img/genetics.jpg" />
+                </div>
+                <div class="quiz-card__metadata">
+                    <div class="quiz-card__metadata__title">
+                        Genetika
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+    <script src="https://unpkg.com/vue@2.6.11/dist/vue.min.js"></script>
+    <script src="/static/js/quiz-app/QuizApp.umd.min.js"></script>
+    <script src="/static/js/common.js"></script>
+    <script src="/static/js/questions-paraziti.js"></script>
+    <script>
+        const title = 'Paraziti'
+        shuffle(quizQuestions)
+        new Vue({
+            render: h => h(QuizApp, {
+                props: {
+                    title: title,
+                    questionsPool: quizQuestions,
+                },
+            }),
+        }).$mount('#app')
+    </script>
+
+        </div>
+    </div>
+</body>
+</html>

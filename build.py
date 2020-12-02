@@ -29,7 +29,15 @@ articles = {
         'image': '/static/img/clanki/slovenija-grb.jpg',
         'date': '18. november 2020',
         'markdownPath': 'clanki-markdown/slovenski-drzavni-simboli.md'
-    }
+    },
+    'paraziti': {
+        'path': 'clanki/paraziti.html',
+        'title': 'Slepi potniki v vašem telesu',
+        'description': 'Zajedavci ali paraziti so živali ali rastline, ki stalno ali občasno živijo na račun drugega organizma (gostitelja).',
+        'image': '/static/img/paraziti.jpg',
+        'date': '2. december 2020',
+        'markdownPath': 'clanki-markdown/paraziti.md'
+    },
 }
 
 quizzes = {
@@ -153,6 +161,14 @@ quizzes = {
         'description': 'Preveri kako dobro poznaš zgodbe iz grške mitologije in se preizkusi v kvizu o grški mitologiji.',
         'relatedQuizzes': ['splosna-knjizevnost'],
     },
+    'paraziti': {
+        'path': 'paraziti-kviz.html',
+        'image': '/static/img/paraziti.jpg',
+        'title': 'Paraziti',
+        'questionsPath': '/static/js/questions-paraziti.js',
+        'description': 'Zajedavci ali paraziti so živali ali rastline, ki stalno ali občasno živijo na račun drugega organizma (gostitelja). Ljudje se lahko večkrat v življenju srečamo s to nadlogo. Pogosto se zgodi, da človek sploh ne ve, da je okužen. V kvizu o parazitih preveri kakšni se lahko znajdejo v človeškem telesu.',
+        'relatedQuizzes': ['sesalci', 'clovesko-telo', 'fotosinteza-rastline', 'celica', 'genetika'],
+    },
 }
 
 
@@ -174,10 +190,11 @@ templates = [
             'quizSections': [
                 { 'title': 'Kvizi o Sloveniji', 'quizCards': get_quizzes_by_key(['vse-o-sloveniji', 'visine-slovenskih-gora', 'slovenske-planinske-koce', 'grbi-slovenskih-obcin']) },
                 { 'title': 'Geografski kvizi', 'quizCards': get_quizzes_by_key(['zastave', 'prestolnice', 'oblike-evropskih-drzav']) },
-                { 'title': 'Biološki kvizi', 'quizCards': get_quizzes_by_key(['sesalci', 'clovesko-telo', 'fotosinteza-rastline', 'genetika', 'celica']) },
+                { 'title': 'Biološki kvizi', 'quizCards': get_quizzes_by_key(['paraziti', 'sesalci', 'clovesko-telo', 'fotosinteza-rastline', 'genetika', 'celica']) },
                 { 'title': 'Kvizi o književnosti', 'quizCards': get_quizzes_by_key(['splosna-knjizevnost', 'slovenska-lirika', 'grska-mitologija']) },
             ],
             'articles': [
+                articles['paraziti'],
                 articles['slovenski-drzavni-simboli'],
                 articles['ekstremofil'],
                 articles['kloniranje'],
