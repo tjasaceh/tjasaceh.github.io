@@ -27,6 +27,24 @@
         {% endfor %}
     </div>
 
+    <div class="spomin">
+        <div class="title">Spomin</div>
+        <div class="quiz-cards">
+            {% for memoryGame in memoryGames %}
+                <div class="quiz-card" onclick="window.location.href = '/{{ memoryGame["path"] }}'">
+                    <div class="quiz-card__image">
+                        <img src="{{  memoryGame["image"] }}" />
+                    </div>
+                    <div class="quiz-card__metadata">
+                        <div class="quiz-card__metadata__title">
+                            {{ memoryGame["title"] }}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
     {% for quizSection in quizSections %}
         <div class="title">{{ quizSection["title"] }}</div>
         <div class="quiz-cards">

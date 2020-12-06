@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block extrameta %}
+    <meta name="description" content="{{ description }}">
+{% endblock %}
+
+{% block extracss %}
+{% endblock %}
+
+{% block content %}
+    <div class="title">{{ title }}</div>
+    <div id="app"></div>
+    <script src="https://unpkg.com/vue@2.6.11/dist/vue.min.js"></script>
+    <script src="/static/js/memory-app/MemoryApp.umd.min.js"></script>
+    <script src="/static/js/common.js"></script>
+    <script src="{{ memoryCardsPath }}"></script>
+    <script>
+        const title = '{{ title }}'
+        shuffle(memoryCards)
+        new Vue({
+            render: h => h(MemoryApp, {
+                props: {
+                    title: title,
+                    memoryCards: memoryCards,
+                },
+            }),
+        }).$mount('#app')
+    </script>
+{% endblock %}

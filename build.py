@@ -171,6 +171,22 @@ quizzes = {
     },
 }
 
+memory_games = {
+    'planinske-koce': {
+        'path': 'planinske-koce-spomin.html',
+        'image': '/static/img/koce/kredarica.jpg',
+        'title': 'Slovenske planinske koče',
+        'description': '',
+        'memoryCardsPath': '/static/js/memory-cards/planinske-koce.js',
+    },
+    'sesalci': {
+        'path': 'sesalci-spomin.html',
+        'image': '/static/img/sesalci/dog.jpg',
+        'title': 'Sesalci',
+        'description': '',
+        'memoryCardsPath': '/static/js/memory-cards/sesalci.js',
+    },
+}
 
 def get_quizzes_by_key(keys):
     return [quizzes[key] for key in keys]
@@ -198,6 +214,10 @@ templates = [
                 articles['slovenski-drzavni-simboli'],
                 articles['ekstremofil'],
                 articles['kloniranje'],
+            ],
+            'memoryGames': [
+                memory_games['planinske-koce'],
+                memory_games['sesalci'],
             ]
         }
     },
@@ -224,6 +244,12 @@ templates = [
             'html': markdown_to_html(article['markdownPath'])
         }
     } for article in articles.values()
+] + [
+    {
+        'path': 'memory.html',
+        'outputPath': memoryGame['path'],
+        'data': memoryGame,
+    } for memoryGame in memory_games.values()
 ]
 
 env = Environment(loader=FileSystemLoader(f'{templates_dir}/'))

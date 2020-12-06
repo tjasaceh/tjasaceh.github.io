@@ -1,5 +1,9 @@
 .DS_Store
 quiz-app/node_modules
+memory-app/node_modules
 
 static/js/quiz-app/*
 !static/js/quiz-app/QuizApp.umd.min.js
+
+static/js/memory-app/*
+!static/js/memory-app/MemoryApp.umd.min.js
