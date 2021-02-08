@@ -145,6 +145,14 @@ quizzes = {
         'description': 'Grb je simbol mesta, države, društva ali občine. Je simbol, ki izhaja že iz časov srednjega veka. Vitezi so si namreč pobarvali svoje ščite, da so dosegli večjo prepoznavnost. Danes grbe občin največkrat opazimo na registrskih tablicah. V zgornjem kvizu preveri, kako dobro poznaš grbe slovenskih občin.',
         'relatedQuizzes': ['visine-slovenskih-gora', 'slovenske-planinske-koce', 'vse-o-sloveniji'],
     },
+    'preseren': {
+        'path': 'preseren-kviz.html',
+        'image': '/static/img/preseren.jpg',
+        'title': 'France Prešeren',
+        'questionsPath': '/static/js/questions-preseren.js',
+        'description': 'Preveri svoje znanje o življenju in delu slovenskega največjega pesnika Franceta Prešerna.',
+        'relatedQuizzes': ['visine-slovenskih-gora', 'slovenske-planinske-koce', 'vse-o-sloveniji'],
+    },
     'vse-o-sloveniji': {
         'path': 'vse-o-sloveniji-kviz.html',
         'image': '/static/img/bled.jpg',
@@ -204,7 +212,7 @@ templates = [
         'outputPath': 'index.html',
         'data': {
             'quizSections': [
-                { 'title': 'Kvizi o Sloveniji', 'quizCards': get_quizzes_by_key(['vse-o-sloveniji', 'visine-slovenskih-gora', 'slovenske-planinske-koce', 'grbi-slovenskih-obcin']) },
+                { 'title': 'Kvizi o Sloveniji', 'quizCards': get_quizzes_by_key(['preseren', 'vse-o-sloveniji', 'visine-slovenskih-gora', 'slovenske-planinske-koce', 'grbi-slovenskih-obcin']) },
                 { 'title': 'Geografski kvizi', 'quizCards': get_quizzes_by_key(['zastave', 'prestolnice', 'oblike-evropskih-drzav']) },
                 { 'title': 'Biološki kvizi', 'quizCards': get_quizzes_by_key(['paraziti', 'sesalci', 'clovesko-telo', 'fotosinteza-rastline', 'genetika', 'celica']) },
                 { 'title': 'Kvizi o književnosti', 'quizCards': get_quizzes_by_key(['splosna-knjizevnost', 'slovenska-lirika', 'grska-mitologija']) },
